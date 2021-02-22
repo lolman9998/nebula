@@ -1,0 +1,31 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ballistic:celestial_dust_to_redstone"
+		},
+		"tags": [
+			"transformation_table"
+		],
+		"pattern": [
+			"CCC",
+			"C#C",
+			"CCC"
+		],
+		"key": {
+			"C": {
+				"item": "ballistic:celestial_dust"
+			},
+			"#": {
+				"item": "minecraft:coal"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:redstone",
+				"count": 1
+			}
+		]
+	}
+}

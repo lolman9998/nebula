@@ -1,0 +1,972 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nebula Mod Textures\\textures\\terrain_texture.json",
+	"file_type": "terrain_texture",
+	"format_version": 1,
+	"file_uuid": "2d5dc68c_be20_44a5_904a_002788800a7a",
+	"file_version": 16,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.terrain",
+				"key": "texture_name"
+			},
+			{
+				"data": "8",
+				"key": "padding"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.terrain",
+					"padding": 8,
+					"num_mip_levels": 4,
+					"texture_data": {
+						"combat_table_top": {
+							"textures": [
+								"textures/blocks/combat_table_top"
+							]
+						},
+						"combat_table_side": {
+							"textures": [
+								"textures/blocks/combat_table_side"
+							]
+						},
+						"combat_table_bottom": {
+							"textures": [
+								"textures/blocks/combat_table_bottom"
+							]
+						},
+						"frosted_ore": {
+							"textures": [
+								"textures/blocks/frosted_ore"
+							]
+						},
+						"frosted_block": {
+							"textures": [
+								"textures/blocks/frosted_block"
+							]
+						},
+						"lantern_block": {
+							"textures": [
+								"textures/blocks/lantern_block"
+							]
+						},
+						"aqua_dungeon_brick": {
+							"textures": [
+								"textures/blocks/aqua_dungeon_brick"
+							]
+						},
+						"runic_aqua_dungeon_brick": {
+							"textures": [
+								"textures/blocks/runic_aqua_dungeon_brick"
+							]
+						},
+						"transformation_table_top": {
+							"textures": [
+								"textures/blocks/transformation_table_top"
+							]
+						},
+						"transformation_table_side": {
+							"textures": [
+								"textures/blocks/transformation_table_side"
+							]
+						},
+						"transformation_table_bottom": {
+							"textures": [
+								"textures/blocks/transformation_table_bottom"
+							]
+						}
+					}
+				},
+				"data": "4",
+				"key": "num_mip_levels"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.terrain",
+					"padding": 8,
+					"num_mip_levels": 4,
+					"texture_data": {
+						"combat_table_top": {
+							"textures": [
+								"textures/blocks/combat_table_top"
+							]
+						},
+						"combat_table_side": {
+							"textures": [
+								"textures/blocks/combat_table_side"
+							]
+						},
+						"combat_table_bottom": {
+							"textures": [
+								"textures/blocks/combat_table_bottom"
+							]
+						},
+						"frosted_ore": {
+							"textures": [
+								"textures/blocks/frosted_ore"
+							]
+						},
+						"frosted_block": {
+							"textures": [
+								"textures/blocks/frosted_block"
+							]
+						},
+						"lantern_block": {
+							"textures": [
+								"textures/blocks/lantern_block"
+							]
+						},
+						"aqua_dungeon_brick": {
+							"textures": [
+								"textures/blocks/aqua_dungeon_brick"
+							]
+						},
+						"runic_aqua_dungeon_brick": {
+							"textures": [
+								"textures/blocks/runic_aqua_dungeon_brick"
+							]
+						},
+						"transformation_table_top": {
+							"textures": [
+								"textures/blocks/transformation_table_top"
+							]
+						},
+						"transformation_table_side": {
+							"textures": [
+								"textures/blocks/transformation_table_side"
+							]
+						},
+						"transformation_table_bottom": {
+							"textures": [
+								"textures/blocks/transformation_table_bottom"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"open": {
+							"combat_table_top": {
+								"textures": [
+									"textures/blocks/combat_table_top"
+								]
+							},
+							"combat_table_side": {
+								"textures": [
+									"textures/blocks/combat_table_side"
+								]
+							},
+							"combat_table_bottom": {
+								"textures": [
+									"textures/blocks/combat_table_bottom"
+								]
+							},
+							"frosted_ore": {
+								"textures": [
+									"textures/blocks/frosted_ore"
+								]
+							},
+							"frosted_block": {
+								"textures": [
+									"textures/blocks/frosted_block"
+								]
+							},
+							"lantern_block": {
+								"textures": [
+									"textures/blocks/lantern_block"
+								]
+							},
+							"aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/aqua_dungeon_brick"
+								]
+							},
+							"runic_aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/runic_aqua_dungeon_brick"
+								]
+							},
+							"transformation_table_top": {
+								"textures": [
+									"textures/blocks/transformation_table_top"
+								]
+							},
+							"transformation_table_side": {
+								"textures": [
+									"textures/blocks/transformation_table_side"
+								]
+							},
+							"transformation_table_bottom": {
+								"textures": [
+									"textures/blocks/transformation_table_bottom"
+								]
+							}
+						},
+						"key": "combat_table_top",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/combat_table_top"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/combat_table_top"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"combat_table_top": {
+								"textures": [
+									"textures/blocks/combat_table_top"
+								]
+							},
+							"combat_table_side": {
+								"textures": [
+									"textures/blocks/combat_table_side"
+								]
+							},
+							"combat_table_bottom": {
+								"textures": [
+									"textures/blocks/combat_table_bottom"
+								]
+							},
+							"frosted_ore": {
+								"textures": [
+									"textures/blocks/frosted_ore"
+								]
+							},
+							"frosted_block": {
+								"textures": [
+									"textures/blocks/frosted_block"
+								]
+							},
+							"lantern_block": {
+								"textures": [
+									"textures/blocks/lantern_block"
+								]
+							},
+							"aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/aqua_dungeon_brick"
+								]
+							},
+							"runic_aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/runic_aqua_dungeon_brick"
+								]
+							},
+							"transformation_table_top": {
+								"textures": [
+									"textures/blocks/transformation_table_top"
+								]
+							},
+							"transformation_table_side": {
+								"textures": [
+									"textures/blocks/transformation_table_side"
+								]
+							},
+							"transformation_table_bottom": {
+								"textures": [
+									"textures/blocks/transformation_table_bottom"
+								]
+							}
+						},
+						"key": "combat_table_side",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/combat_table_side"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/combat_table_side"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"combat_table_top": {
+								"textures": [
+									"textures/blocks/combat_table_top"
+								]
+							},
+							"combat_table_side": {
+								"textures": [
+									"textures/blocks/combat_table_side"
+								]
+							},
+							"combat_table_bottom": {
+								"textures": [
+									"textures/blocks/combat_table_bottom"
+								]
+							},
+							"frosted_ore": {
+								"textures": [
+									"textures/blocks/frosted_ore"
+								]
+							},
+							"frosted_block": {
+								"textures": [
+									"textures/blocks/frosted_block"
+								]
+							},
+							"lantern_block": {
+								"textures": [
+									"textures/blocks/lantern_block"
+								]
+							},
+							"aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/aqua_dungeon_brick"
+								]
+							},
+							"runic_aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/runic_aqua_dungeon_brick"
+								]
+							},
+							"transformation_table_top": {
+								"textures": [
+									"textures/blocks/transformation_table_top"
+								]
+							},
+							"transformation_table_side": {
+								"textures": [
+									"textures/blocks/transformation_table_side"
+								]
+							},
+							"transformation_table_bottom": {
+								"textures": [
+									"textures/blocks/transformation_table_bottom"
+								]
+							}
+						},
+						"key": "combat_table_bottom",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/combat_table_bottom"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/combat_table_bottom"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"combat_table_top": {
+								"textures": [
+									"textures/blocks/combat_table_top"
+								]
+							},
+							"combat_table_side": {
+								"textures": [
+									"textures/blocks/combat_table_side"
+								]
+							},
+							"combat_table_bottom": {
+								"textures": [
+									"textures/blocks/combat_table_bottom"
+								]
+							},
+							"frosted_ore": {
+								"textures": [
+									"textures/blocks/frosted_ore"
+								]
+							},
+							"frosted_block": {
+								"textures": [
+									"textures/blocks/frosted_block"
+								]
+							},
+							"lantern_block": {
+								"textures": [
+									"textures/blocks/lantern_block"
+								]
+							},
+							"aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/aqua_dungeon_brick"
+								]
+							},
+							"runic_aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/runic_aqua_dungeon_brick"
+								]
+							},
+							"transformation_table_top": {
+								"textures": [
+									"textures/blocks/transformation_table_top"
+								]
+							},
+							"transformation_table_side": {
+								"textures": [
+									"textures/blocks/transformation_table_side"
+								]
+							},
+							"transformation_table_bottom": {
+								"textures": [
+									"textures/blocks/transformation_table_bottom"
+								]
+							}
+						},
+						"key": "frosted_ore",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/frosted_ore"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/frosted_ore"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"combat_table_top": {
+								"textures": [
+									"textures/blocks/combat_table_top"
+								]
+							},
+							"combat_table_side": {
+								"textures": [
+									"textures/blocks/combat_table_side"
+								]
+							},
+							"combat_table_bottom": {
+								"textures": [
+									"textures/blocks/combat_table_bottom"
+								]
+							},
+							"frosted_ore": {
+								"textures": [
+									"textures/blocks/frosted_ore"
+								]
+							},
+							"frosted_block": {
+								"textures": [
+									"textures/blocks/frosted_block"
+								]
+							},
+							"lantern_block": {
+								"textures": [
+									"textures/blocks/lantern_block"
+								]
+							},
+							"aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/aqua_dungeon_brick"
+								]
+							},
+							"runic_aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/runic_aqua_dungeon_brick"
+								]
+							},
+							"transformation_table_top": {
+								"textures": [
+									"textures/blocks/transformation_table_top"
+								]
+							},
+							"transformation_table_side": {
+								"textures": [
+									"textures/blocks/transformation_table_side"
+								]
+							},
+							"transformation_table_bottom": {
+								"textures": [
+									"textures/blocks/transformation_table_bottom"
+								]
+							}
+						},
+						"key": "frosted_block",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/frosted_block"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/frosted_block"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"combat_table_top": {
+								"textures": [
+									"textures/blocks/combat_table_top"
+								]
+							},
+							"combat_table_side": {
+								"textures": [
+									"textures/blocks/combat_table_side"
+								]
+							},
+							"combat_table_bottom": {
+								"textures": [
+									"textures/blocks/combat_table_bottom"
+								]
+							},
+							"frosted_ore": {
+								"textures": [
+									"textures/blocks/frosted_ore"
+								]
+							},
+							"frosted_block": {
+								"textures": [
+									"textures/blocks/frosted_block"
+								]
+							},
+							"lantern_block": {
+								"textures": [
+									"textures/blocks/lantern_block"
+								]
+							},
+							"aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/aqua_dungeon_brick"
+								]
+							},
+							"runic_aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/runic_aqua_dungeon_brick"
+								]
+							},
+							"transformation_table_top": {
+								"textures": [
+									"textures/blocks/transformation_table_top"
+								]
+							},
+							"transformation_table_side": {
+								"textures": [
+									"textures/blocks/transformation_table_side"
+								]
+							},
+							"transformation_table_bottom": {
+								"textures": [
+									"textures/blocks/transformation_table_bottom"
+								]
+							}
+						},
+						"key": "lantern_block",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/lantern_block"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/lantern_block"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"combat_table_top": {
+								"textures": [
+									"textures/blocks/combat_table_top"
+								]
+							},
+							"combat_table_side": {
+								"textures": [
+									"textures/blocks/combat_table_side"
+								]
+							},
+							"combat_table_bottom": {
+								"textures": [
+									"textures/blocks/combat_table_bottom"
+								]
+							},
+							"frosted_ore": {
+								"textures": [
+									"textures/blocks/frosted_ore"
+								]
+							},
+							"frosted_block": {
+								"textures": [
+									"textures/blocks/frosted_block"
+								]
+							},
+							"lantern_block": {
+								"textures": [
+									"textures/blocks/lantern_block"
+								]
+							},
+							"aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/aqua_dungeon_brick"
+								]
+							},
+							"runic_aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/runic_aqua_dungeon_brick"
+								]
+							},
+							"transformation_table_top": {
+								"textures": [
+									"textures/blocks/transformation_table_top"
+								]
+							},
+							"transformation_table_side": {
+								"textures": [
+									"textures/blocks/transformation_table_side"
+								]
+							},
+							"transformation_table_bottom": {
+								"textures": [
+									"textures/blocks/transformation_table_bottom"
+								]
+							}
+						},
+						"key": "aqua_dungeon_brick",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/aqua_dungeon_brick"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/aqua_dungeon_brick"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"combat_table_top": {
+								"textures": [
+									"textures/blocks/combat_table_top"
+								]
+							},
+							"combat_table_side": {
+								"textures": [
+									"textures/blocks/combat_table_side"
+								]
+							},
+							"combat_table_bottom": {
+								"textures": [
+									"textures/blocks/combat_table_bottom"
+								]
+							},
+							"frosted_ore": {
+								"textures": [
+									"textures/blocks/frosted_ore"
+								]
+							},
+							"frosted_block": {
+								"textures": [
+									"textures/blocks/frosted_block"
+								]
+							},
+							"lantern_block": {
+								"textures": [
+									"textures/blocks/lantern_block"
+								]
+							},
+							"aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/aqua_dungeon_brick"
+								]
+							},
+							"runic_aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/runic_aqua_dungeon_brick"
+								]
+							},
+							"transformation_table_top": {
+								"textures": [
+									"textures/blocks/transformation_table_top"
+								]
+							},
+							"transformation_table_side": {
+								"textures": [
+									"textures/blocks/transformation_table_side"
+								]
+							},
+							"transformation_table_bottom": {
+								"textures": [
+									"textures/blocks/transformation_table_bottom"
+								]
+							}
+						},
+						"key": "runic_aqua_dungeon_brick",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/runic_aqua_dungeon_brick"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/runic_aqua_dungeon_brick"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"combat_table_top": {
+								"textures": [
+									"textures/blocks/combat_table_top"
+								]
+							},
+							"combat_table_side": {
+								"textures": [
+									"textures/blocks/combat_table_side"
+								]
+							},
+							"combat_table_bottom": {
+								"textures": [
+									"textures/blocks/combat_table_bottom"
+								]
+							},
+							"frosted_ore": {
+								"textures": [
+									"textures/blocks/frosted_ore"
+								]
+							},
+							"frosted_block": {
+								"textures": [
+									"textures/blocks/frosted_block"
+								]
+							},
+							"lantern_block": {
+								"textures": [
+									"textures/blocks/lantern_block"
+								]
+							},
+							"aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/aqua_dungeon_brick"
+								]
+							},
+							"runic_aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/runic_aqua_dungeon_brick"
+								]
+							},
+							"transformation_table_top": {
+								"textures": [
+									"textures/blocks/transformation_table_top"
+								]
+							},
+							"transformation_table_side": {
+								"textures": [
+									"textures/blocks/transformation_table_side"
+								]
+							},
+							"transformation_table_bottom": {
+								"textures": [
+									"textures/blocks/transformation_table_bottom"
+								]
+							}
+						},
+						"key": "transformation_table_top",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/transformation_table_top"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/transformation_table_top"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"combat_table_top": {
+								"textures": [
+									"textures/blocks/combat_table_top"
+								]
+							},
+							"combat_table_side": {
+								"textures": [
+									"textures/blocks/combat_table_side"
+								]
+							},
+							"combat_table_bottom": {
+								"textures": [
+									"textures/blocks/combat_table_bottom"
+								]
+							},
+							"frosted_ore": {
+								"textures": [
+									"textures/blocks/frosted_ore"
+								]
+							},
+							"frosted_block": {
+								"textures": [
+									"textures/blocks/frosted_block"
+								]
+							},
+							"lantern_block": {
+								"textures": [
+									"textures/blocks/lantern_block"
+								]
+							},
+							"aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/aqua_dungeon_brick"
+								]
+							},
+							"runic_aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/runic_aqua_dungeon_brick"
+								]
+							},
+							"transformation_table_top": {
+								"textures": [
+									"textures/blocks/transformation_table_top"
+								]
+							},
+							"transformation_table_side": {
+								"textures": [
+									"textures/blocks/transformation_table_side"
+								]
+							},
+							"transformation_table_bottom": {
+								"textures": [
+									"textures/blocks/transformation_table_bottom"
+								]
+							}
+						},
+						"key": "transformation_table_side",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/transformation_table_side"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/transformation_table_side"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"combat_table_top": {
+								"textures": [
+									"textures/blocks/combat_table_top"
+								]
+							},
+							"combat_table_side": {
+								"textures": [
+									"textures/blocks/combat_table_side"
+								]
+							},
+							"combat_table_bottom": {
+								"textures": [
+									"textures/blocks/combat_table_bottom"
+								]
+							},
+							"frosted_ore": {
+								"textures": [
+									"textures/blocks/frosted_ore"
+								]
+							},
+							"frosted_block": {
+								"textures": [
+									"textures/blocks/frosted_block"
+								]
+							},
+							"lantern_block": {
+								"textures": [
+									"textures/blocks/lantern_block"
+								]
+							},
+							"aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/aqua_dungeon_brick"
+								]
+							},
+							"runic_aqua_dungeon_brick": {
+								"textures": [
+									"textures/blocks/runic_aqua_dungeon_brick"
+								]
+							},
+							"transformation_table_top": {
+								"textures": [
+									"textures/blocks/transformation_table_top"
+								]
+							},
+							"transformation_table_side": {
+								"textures": [
+									"textures/blocks/transformation_table_side"
+								]
+							},
+							"transformation_table_bottom": {
+								"textures": [
+									"textures/blocks/transformation_table_bottom"
+								]
+							}
+						},
+						"key": "transformation_table_bottom",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/transformation_table_bottom"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/transformation_table_bottom"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

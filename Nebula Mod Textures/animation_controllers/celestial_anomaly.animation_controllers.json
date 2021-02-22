@@ -1,0 +1,17 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.celestial_anomaly": {
+			"initial_state": "default",
+			"states": {
+				"spinning": {
+					"animations": [
+						"rotate_side",
+						"rotate_top"
+					]
+				}
+			}
+		}
+	}
+}

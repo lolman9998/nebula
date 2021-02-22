@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ballistic:celestial_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"N",
+			"N",
+			"s"
+		],
+		"key": {
+			"N": {
+				"item": "ballistic:celestial_dust"
+			},
+			"s": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "ballistic:celestial_sword",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,336 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nebula Mod Textures\\entity\\celestial_anomaly.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "9eac2192_5b09_485c_bcb4_9053b5f0f49f",
+	"file_version": 55,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "ballistic:celestial_anomaly",
+							"min_engine_version": "1.10.0",
+							"materials": {
+								"default": "creeper",
+								"charged": "charged_creeper"
+							},
+							"textures": {
+								"default": "textures/entity/celestial_anomaly/celestial_anomaly",
+								"charged": "textures/entity/celestial_anomaly/celestial_anomaly_charged"
+							},
+							"geometry": {
+								"default": "geometry.celestial_anomaly",
+								"charged": "geometry.celestial_anomaly_charged"
+							},
+							"render_controllers": [
+								"controller.render.entity",
+								"controller.render.creeper_armor"
+							],
+							"spawn_egg": {
+								"texture": "spawn_celestial_anomaly"
+							},
+							"scripts": {
+								"animate": [
+									"spin"
+								]
+							},
+							"animations": {
+								"spin": "controller.animation.celestial_anomaly",
+								"rotate_side": "animation.celestial_anomaly.rotate_side",
+								"rotate_top": "animation.celestial_anomaly.rotate_top"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_anomaly",
+								"min_engine_version": "1.10.0",
+								"materials": {
+									"default": "creeper",
+									"charged": "charged_creeper"
+								},
+								"textures": {
+									"default": "textures/entity/celestial_anomaly/celestial_anomaly",
+									"charged": "textures/entity/celestial_anomaly/celestial_anomaly_charged"
+								},
+								"geometry": {
+									"default": "geometry.celestial_anomaly",
+									"charged": "geometry.celestial_anomaly_charged"
+								},
+								"render_controllers": [
+									"controller.render.entity",
+									"controller.render.creeper_armor"
+								],
+								"spawn_egg": {
+									"texture": "spawn_celestial_anomaly"
+								},
+								"scripts": {
+									"animate": [
+										"spin"
+									]
+								},
+								"animations": {
+									"spin": "controller.animation.celestial_anomaly",
+									"rotate_side": "animation.celestial_anomaly.rotate_side",
+									"rotate_top": "animation.celestial_anomaly.rotate_top"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "ballistic:celestial_anomaly",
+								"key": "identifier"
+							},
+							{
+								"data": "1.10.0",
+								"key": "min_engine_version"
+							},
+							{
+								"open": {
+									"identifier": "ballistic:celestial_anomaly",
+									"min_engine_version": "1.10.0",
+									"materials": {
+										"default": "creeper",
+										"charged": "charged_creeper"
+									},
+									"textures": {
+										"default": "textures/entity/celestial_anomaly/celestial_anomaly",
+										"charged": "textures/entity/celestial_anomaly/celestial_anomaly_charged"
+									},
+									"geometry": {
+										"default": "geometry.celestial_anomaly",
+										"charged": "geometry.celestial_anomaly_charged"
+									},
+									"render_controllers": [
+										"controller.render.entity",
+										"controller.render.creeper_armor"
+									],
+									"spawn_egg": {
+										"texture": "spawn_celestial_anomaly"
+									},
+									"scripts": {
+										"animate": [
+											"spin"
+										]
+									},
+									"animations": {
+										"spin": "controller.animation.celestial_anomaly",
+										"rotate_side": "animation.celestial_anomaly.rotate_side",
+										"rotate_top": "animation.celestial_anomaly.rotate_top"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "creeper",
+									"charged": "charged_creeper"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/celestial_anomaly/celestial_anomaly",
+									"charged": "textures/entity/celestial_anomaly/celestial_anomaly_charged"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ballistic:celestial_anomaly",
+									"min_engine_version": "1.10.0",
+									"materials": {
+										"default": "creeper",
+										"charged": "charged_creeper"
+									},
+									"textures": {
+										"default": "textures/entity/celestial_anomaly/celestial_anomaly",
+										"charged": "textures/entity/celestial_anomaly/celestial_anomaly_charged"
+									},
+									"geometry": {
+										"default": "geometry.celestial_anomaly",
+										"charged": "geometry.celestial_anomaly_charged"
+									},
+									"render_controllers": [
+										"controller.render.entity",
+										"controller.render.creeper_armor"
+									],
+									"spawn_egg": {
+										"texture": "spawn_celestial_anomaly"
+									},
+									"scripts": {
+										"animate": [
+											"spin"
+										]
+									},
+									"animations": {
+										"spin": "controller.animation.celestial_anomaly",
+										"rotate_side": "animation.celestial_anomaly.rotate_side",
+										"rotate_top": "animation.celestial_anomaly.rotate_top"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.celestial_anomaly",
+									"charged": "geometry.celestial_anomaly_charged"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.entity",
+									"controller.render.creeper_armor"
+								]
+							},
+							{
+								"open": {
+									"identifier": "ballistic:celestial_anomaly",
+									"min_engine_version": "1.10.0",
+									"materials": {
+										"default": "creeper",
+										"charged": "charged_creeper"
+									},
+									"textures": {
+										"default": "textures/entity/celestial_anomaly/celestial_anomaly",
+										"charged": "textures/entity/celestial_anomaly/celestial_anomaly_charged"
+									},
+									"geometry": {
+										"default": "geometry.celestial_anomaly",
+										"charged": "geometry.celestial_anomaly_charged"
+									},
+									"render_controllers": [
+										"controller.render.entity",
+										"controller.render.creeper_armor"
+									],
+									"spawn_egg": {
+										"texture": "spawn_celestial_anomaly"
+									},
+									"scripts": {
+										"animate": [
+											"spin"
+										]
+									},
+									"animations": {
+										"spin": "controller.animation.celestial_anomaly",
+										"rotate_side": "animation.celestial_anomaly.rotate_side",
+										"rotate_top": "animation.celestial_anomaly.rotate_top"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "spawn_celestial_anomaly"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ballistic:celestial_anomaly",
+									"min_engine_version": "1.10.0",
+									"materials": {
+										"default": "creeper",
+										"charged": "charged_creeper"
+									},
+									"textures": {
+										"default": "textures/entity/celestial_anomaly/celestial_anomaly",
+										"charged": "textures/entity/celestial_anomaly/celestial_anomaly_charged"
+									},
+									"geometry": {
+										"default": "geometry.celestial_anomaly",
+										"charged": "geometry.celestial_anomaly_charged"
+									},
+									"render_controllers": [
+										"controller.render.entity",
+										"controller.render.creeper_armor"
+									],
+									"spawn_egg": {
+										"texture": "spawn_celestial_anomaly"
+									},
+									"scripts": {
+										"animate": [
+											"spin"
+										]
+									},
+									"animations": {
+										"spin": "controller.animation.celestial_anomaly",
+										"rotate_side": "animation.celestial_anomaly.rotate_side",
+										"rotate_top": "animation.celestial_anomaly.rotate_top"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"spin"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"spin"
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "ballistic:celestial_anomaly",
+									"min_engine_version": "1.10.0",
+									"materials": {
+										"default": "creeper",
+										"charged": "charged_creeper"
+									},
+									"textures": {
+										"default": "textures/entity/celestial_anomaly/celestial_anomaly",
+										"charged": "textures/entity/celestial_anomaly/celestial_anomaly_charged"
+									},
+									"geometry": {
+										"default": "geometry.celestial_anomaly",
+										"charged": "geometry.celestial_anomaly_charged"
+									},
+									"render_controllers": [
+										"controller.render.entity",
+										"controller.render.creeper_armor"
+									],
+									"spawn_egg": {
+										"texture": "spawn_celestial_anomaly"
+									},
+									"scripts": {
+										"animate": [
+											"spin"
+										]
+									},
+									"animations": {
+										"spin": "controller.animation.celestial_anomaly",
+										"rotate_side": "animation.celestial_anomaly.rotate_side",
+										"rotate_top": "animation.celestial_anomaly.rotate_top"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"spin": "controller.animation.celestial_anomaly",
+									"rotate_side": "animation.celestial_anomaly.rotate_side",
+									"rotate_top": "animation.celestial_anomaly.rotate_top"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

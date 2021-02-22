@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nebula Mod Textures\\texts\\en_US.lang",
+	"file_type": "client_lang",
+	"format_version": 0,
+	"file_uuid": "d75d0417_462d_49aa_b540_8392adc08e23",
+	"file_version": 16,
+	"cache_content": "pack.name=Nebula Mod Textures\r\npack.description=Sprites and model assets.\r\ntile.ballistic:combat_table.name=Combat Table\r\ntile.ballistic:frosted_ore.name=Frosted Ore\r\ntile.ballistic:frosted_block.name=Frosted Block\r\nentity.ballistic:celestial_anomaly.name=Celestial Anomaly\r\nitem.spawn_egg.entity.ballistic:celestial_anomaly.name=Spawn Celestial Anomaly\r\ntile.ballistic:auqa_dungeon_brick.name=Auqa Dungeon Brick\r\ntile.ballistic:runic_auqa_dungeon_brick.name=Runic Auqa Dungeon Brick\r\ntile.ballistic:transformation_table.name=Transformation Table"
+}

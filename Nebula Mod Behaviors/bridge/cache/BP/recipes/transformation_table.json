@@ -1,0 +1,261 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\recipes\\transformation_table.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "9b74ac26_e475_4d76_8c6f_dc0ed0cd5232",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ballistic:transformation_table"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"CCC",
+							"CWC",
+							"CCC"
+						],
+						"key": {
+							"C": {
+								"item": "ballistic:celestial_dust"
+							},
+							"W": {
+								"item": "minecraft:crafting_table"
+							}
+						},
+						"result": [
+							{
+								"item": "ballistic:transformation_table",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:transformation_table"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"CWC",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"W": {
+									"item": "minecraft:crafting_table"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:transformation_table",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:transformation_table"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:transformation_table"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"CWC",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"W": {
+									"item": "minecraft:crafting_table"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:transformation_table",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:transformation_table"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"CWC",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"W": {
+									"item": "minecraft:crafting_table"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:transformation_table",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"CCC",
+							"CWC",
+							"CCC"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:transformation_table"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"CWC",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"W": {
+									"item": "minecraft:crafting_table"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:transformation_table",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"C": {
+										"item": "ballistic:celestial_dust"
+									},
+									"W": {
+										"item": "minecraft:crafting_table"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							{
+								"open": {
+									"C": {
+										"item": "ballistic:celestial_dust"
+									},
+									"W": {
+										"item": "minecraft:crafting_table"
+									}
+								},
+								"key": "W",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:crafting_table"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:transformation_table"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"CWC",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"W": {
+									"item": "minecraft:crafting_table"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:transformation_table",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "ballistic:transformation_table",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "ballistic:transformation_table",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

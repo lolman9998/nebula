@@ -1,0 +1,73 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\blocks\\lantern_block.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "6ad35e85_a463_4fe3_a381_38ff23bdfec5",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ballistic:lantern_block"
+						},
+						"components": {
+							"minecraft:destroy_time": 2,
+							"minecraft:block_light_emission": 0.9,
+							"minecraft:map_color": "#FF4F00",
+							"minecraft:explosion_resistance": 0.8
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:lantern_block"
+							},
+							"components": {
+								"minecraft:destroy_time": 2,
+								"minecraft:block_light_emission": 0.9,
+								"minecraft:map_color": "#FF4F00",
+								"minecraft:explosion_resistance": 0.8
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:lantern_block"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:lantern_block"
+							},
+							"components": {
+								"minecraft:destroy_time": 2,
+								"minecraft:block_light_emission": 0.9,
+								"minecraft:map_color": "#FF4F00",
+								"minecraft:explosion_resistance": 0.8
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 2,
+							"minecraft:block_light_emission": 0.9,
+							"minecraft:map_color": "#FF4F00",
+							"minecraft:explosion_resistance": 0.8
+						}
+					}
+				]
+			}
+		]
+	}
+}

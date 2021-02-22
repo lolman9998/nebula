@@ -1,0 +1,28 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ballistic:celestial_leggings"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"CCC",
+			"C C",
+			"C C"
+		],
+		"key": {
+			"C": {
+				"item": "ballistic:celestial_dust"
+			}
+		},
+		"result": [
+			{
+				"item": "ballistic:celestial_leggings",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,58 @@
+//bridge-file-version: #3
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "ballistic:celestial_dust",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 12,
+								"max": 24
+							}
+						},
+						{
+							"function": "looting_enchant",
+							"count": {
+								"min": 24,
+								"max": 32
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "ballistic:adrenaline_potion",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "killed_by_player"
+				},
+				{
+					"condition": "random_chance",
+					"chance": 0.1,
+					"looting_multiplier": 0.2
+				}
+			]
+		}
+	]
+}

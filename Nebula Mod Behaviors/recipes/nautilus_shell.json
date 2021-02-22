@@ -1,0 +1,28 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ballistic:nautilus_shell"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BBB",
+			"B B",
+			"BBB"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:bone"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:nautilus_shell",
+				"count": 1
+			}
+		]
+	}
+}

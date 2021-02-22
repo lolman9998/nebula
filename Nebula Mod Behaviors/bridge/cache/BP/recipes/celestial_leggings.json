@@ -1,0 +1,225 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\recipes\\celestial_leggings.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "867a968d_bb8d_43d7_ab2b_41ac5e484ffd",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ballistic:celestial_leggings"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"CCC",
+							"C C",
+							"C C"
+						],
+						"key": {
+							"C": {
+								"item": "ballistic:celestial_dust"
+							}
+						},
+						"result": [
+							{
+								"item": "ballistic:celestial_leggings",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_leggings"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"C C",
+								"C C"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_leggings",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:celestial_leggings"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_leggings"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"C C",
+								"C C"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_leggings",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_leggings"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"C C",
+								"C C"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_leggings",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"CCC",
+							"C C",
+							"C C"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_leggings"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"C C",
+								"C C"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_leggings",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"C": {
+										"item": "ballistic:celestial_dust"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "ballistic:celestial_dust"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_leggings"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"C C",
+								"C C"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_leggings",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "ballistic:celestial_leggings",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "ballistic:celestial_leggings",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

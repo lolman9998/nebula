@@ -1,0 +1,382 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nebula Mod Textures\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "d7c523cb_097d_4377_8a52_33a93656e7f6",
+	"file_version": 22,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"celestial_clam": {
+							"textures": [
+								"textures/items/celestial_clam"
+							]
+						},
+						"celestial_dust": {
+							"textures": [
+								"textures/items/celestial_dust"
+							]
+						},
+						"celestial_sword": {
+							"textures": [
+								"textures/items/celestial_sword"
+							]
+						},
+						"celestial_helmet": {
+							"textures": [
+								"textures/items/celestial_helmet"
+							]
+						},
+						"celestial_chestplate": {
+							"textures": [
+								"textures/items/celestial_chestplate"
+							]
+						},
+						"celestial_leggings": {
+							"textures": [
+								"textures/items/celestial_leggings"
+							]
+						},
+						"celestial_boots": {
+							"textures": [
+								"textures/items/celestial_boots"
+							]
+						},
+						"spawn_celestial_anomaly": {
+							"textures": [
+								"textures/items/spawn_celestial_anomaly"
+							]
+						},
+						"adrenaline_potion": {
+							"textures": [
+								"textures/items/adrenaline_potion"
+							]
+						},
+						"emerald_sword": {
+							"textures": [
+								"textures/items/emerald_sword"
+							]
+						},
+						"judgement_sword": {
+							"textures": [
+								"textures/items/judgement_sword"
+							]
+						},
+						"blizzard_sword": {
+							"textures": [
+								"textures/items/blizzard_sword"
+							]
+						},
+						"thermal_sword": {
+							"textures": [
+								"textures/items/thermal_sword"
+							]
+						},
+						"frost_charm": {
+							"textures": [
+								"textures/items/frost_charm"
+							]
+						},
+						"wither_bone": {
+							"textures": [
+								"textures/items/wither_bone"
+							]
+						},
+						"mod_guide_book": {
+							"textures": [
+								"textures/items/mod_guide_book"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "celestial_clam",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/celestial_clam"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/celestial_clam"
+								]
+							}
+						]
+					},
+					{
+						"key": "celestial_dust",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/celestial_dust"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/celestial_dust"
+								]
+							}
+						]
+					},
+					{
+						"key": "celestial_sword",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/celestial_sword"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/celestial_sword"
+								]
+							}
+						]
+					},
+					{
+						"key": "celestial_helmet",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/celestial_helmet"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/celestial_helmet"
+								]
+							}
+						]
+					},
+					{
+						"key": "celestial_chestplate",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/celestial_chestplate"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/celestial_chestplate"
+								]
+							}
+						]
+					},
+					{
+						"key": "celestial_leggings",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/celestial_leggings"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/celestial_leggings"
+								]
+							}
+						]
+					},
+					{
+						"key": "celestial_boots",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/celestial_boots"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/celestial_boots"
+								]
+							}
+						]
+					},
+					{
+						"key": "spawn_celestial_anomaly",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/spawn_celestial_anomaly"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/spawn_celestial_anomaly"
+								]
+							}
+						]
+					},
+					{
+						"key": "adrenaline_potion",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/adrenaline_potion"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/adrenaline_potion"
+								]
+							}
+						]
+					},
+					{
+						"key": "emerald_sword",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/emerald_sword"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/emerald_sword"
+								]
+							}
+						]
+					},
+					{
+						"key": "judgement_sword",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/judgement_sword"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/judgement_sword"
+								]
+							}
+						]
+					},
+					{
+						"key": "blizzard_sword",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/blizzard_sword"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/blizzard_sword"
+								]
+							}
+						]
+					},
+					{
+						"key": "thermal_sword",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/thermal_sword"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/thermal_sword"
+								]
+							}
+						]
+					},
+					{
+						"key": "frost_charm",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/frost_charm"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/frost_charm"
+								]
+							}
+						]
+					},
+					{
+						"key": "wither_bone",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/wither_bone"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/wither_bone"
+								]
+							}
+						]
+					},
+					{
+						"key": "mod_guide_book",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/mod_guide_book"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/mod_guide_book"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,17 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ballistic:mod_guide_book_entity",
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:loot": {
+				"table": "loot_tables/books/mod_guide_book.json"
+			}
+		},
+		"component_groups": {},
+		"events": {}
+	}
+}

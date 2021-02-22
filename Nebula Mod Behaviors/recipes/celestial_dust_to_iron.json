@@ -1,0 +1,31 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ballistic:celestial_dust_to_iron"
+		},
+		"tags": [
+			"transformation_table"
+		],
+		"pattern": [
+			"CCC",
+			"C#C",
+			"CCC"
+		],
+		"key": {
+			"C": {
+				"item": "ballistic:celestial_dust"
+			},
+			"#": {
+				"item": "minecraft:quartz"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:iron_ingot",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,16 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ballistic:lantern_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 2,
+			"minecraft:block_light_emission": 0.9,
+			"minecraft:map_color": "#FF4F00",
+			"minecraft:explosion_resistance": 0.8
+		},
+		"events": {}
+	}
+}

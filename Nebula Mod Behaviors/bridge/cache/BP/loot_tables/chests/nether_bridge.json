@@ -1,0 +1,2303 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\loot_tables\\chests\\nether_bridge.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "707baf99_5d51_49a3_ace4_5add235d124a",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": {
+								"min": 2,
+								"max": 4
+							},
+							"entries": [
+								{
+									"type": "item",
+									"name": "minecraft:diamond",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 3
+											}
+										}
+									],
+									"weight": 5
+								},
+								{
+									"type": "item",
+									"name": "minecraft:iron_ingot",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 5
+											}
+										}
+									],
+									"weight": 5
+								},
+								{
+									"type": "item",
+									"name": "minecraft:gold_ingot",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 3
+											}
+										}
+									],
+									"weight": 15
+								},
+								{
+									"type": "item",
+									"name": "minecraft:golden_sword",
+									"weight": 5
+								},
+								{
+									"type": "item",
+									"name": "minecraft:golden_chestplate",
+									"weight": 5
+								},
+								{
+									"type": "item",
+									"name": "minecraft:flint_and_steel",
+									"weight": 5
+								},
+								{
+									"type": "item",
+									"name": "minecraft:nether_wart",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 3,
+												"max": 7
+											}
+										}
+									],
+									"weight": 5
+								},
+								{
+									"type": "item",
+									"name": "minecraft:saddle",
+									"weight": 10
+								},
+								{
+									"type": "item",
+									"name": "minecraft:horsearmorgold",
+									"weight": 8
+								},
+								{
+									"type": "item",
+									"name": "minecraft:horsearmoriron",
+									"weight": 5
+								},
+								{
+									"type": "item",
+									"name": "minecraft:horsearmordiamond",
+									"weight": 3
+								},
+								{
+									"type": "item",
+									"name": "minecraft:obsidian",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 2,
+												"max": 4
+											}
+										}
+									],
+									"weight": 2
+								},
+								{
+									"type": "item",
+									"name": "ballistic:blizzard_sword",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 2
+											}
+										}
+									],
+									"weight": 4
+								},
+								{
+									"type": "item",
+									"name": "ballistic:thermal_sword",
+									"weight": 4
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": {
+									"min": 2,
+									"max": 4
+								},
+								"entries": [
+									{
+										"type": "item",
+										"name": "minecraft:diamond",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 3
+												}
+											}
+										],
+										"weight": 5
+									},
+									{
+										"type": "item",
+										"name": "minecraft:iron_ingot",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 5
+												}
+											}
+										],
+										"weight": 5
+									},
+									{
+										"type": "item",
+										"name": "minecraft:gold_ingot",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 3
+												}
+											}
+										],
+										"weight": 15
+									},
+									{
+										"type": "item",
+										"name": "minecraft:golden_sword",
+										"weight": 5
+									},
+									{
+										"type": "item",
+										"name": "minecraft:golden_chestplate",
+										"weight": 5
+									},
+									{
+										"type": "item",
+										"name": "minecraft:flint_and_steel",
+										"weight": 5
+									},
+									{
+										"type": "item",
+										"name": "minecraft:nether_wart",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 3,
+													"max": 7
+												}
+											}
+										],
+										"weight": 5
+									},
+									{
+										"type": "item",
+										"name": "minecraft:saddle",
+										"weight": 10
+									},
+									{
+										"type": "item",
+										"name": "minecraft:horsearmorgold",
+										"weight": 8
+									},
+									{
+										"type": "item",
+										"name": "minecraft:horsearmoriron",
+										"weight": 5
+									},
+									{
+										"type": "item",
+										"name": "minecraft:horsearmordiamond",
+										"weight": 3
+									},
+									{
+										"type": "item",
+										"name": "minecraft:obsidian",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 2,
+													"max": 4
+												}
+											}
+										],
+										"weight": 2
+									},
+									{
+										"type": "item",
+										"name": "ballistic:blizzard_sword",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 2
+												}
+											}
+										],
+										"weight": 4
+									},
+									{
+										"type": "item",
+										"name": "ballistic:thermal_sword",
+										"weight": 4
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"key": "rolls",
+								"is_minified": true,
+								"children": {
+									"min": 2,
+									"max": 4
+								}
+							},
+							{
+								"open": {
+									"rolls": {
+										"min": 2,
+										"max": 4
+									},
+									"entries": [
+										{
+											"type": "item",
+											"name": "minecraft:diamond",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 3
+													}
+												}
+											],
+											"weight": 5
+										},
+										{
+											"type": "item",
+											"name": "minecraft:iron_ingot",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 5
+													}
+												}
+											],
+											"weight": 5
+										},
+										{
+											"type": "item",
+											"name": "minecraft:gold_ingot",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 3
+													}
+												}
+											],
+											"weight": 15
+										},
+										{
+											"type": "item",
+											"name": "minecraft:golden_sword",
+											"weight": 5
+										},
+										{
+											"type": "item",
+											"name": "minecraft:golden_chestplate",
+											"weight": 5
+										},
+										{
+											"type": "item",
+											"name": "minecraft:flint_and_steel",
+											"weight": 5
+										},
+										{
+											"type": "item",
+											"name": "minecraft:nether_wart",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 7
+													}
+												}
+											],
+											"weight": 5
+										},
+										{
+											"type": "item",
+											"name": "minecraft:saddle",
+											"weight": 10
+										},
+										{
+											"type": "item",
+											"name": "minecraft:horsearmorgold",
+											"weight": 8
+										},
+										{
+											"type": "item",
+											"name": "minecraft:horsearmoriron",
+											"weight": 5
+										},
+										{
+											"type": "item",
+											"name": "minecraft:horsearmordiamond",
+											"weight": 3
+										},
+										{
+											"type": "item",
+											"name": "minecraft:obsidian",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 2,
+														"max": 4
+													}
+												}
+											],
+											"weight": 2
+										},
+										{
+											"type": "item",
+											"name": "ballistic:blizzard_sword",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 2
+													}
+												}
+											],
+											"weight": 4
+										},
+										{
+											"type": "item",
+											"name": "ballistic:thermal_sword",
+											"weight": 4
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:diamond",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:iron_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 5
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:gold_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 15
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_sword",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_chestplate",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:flint_and_steel",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:nether_wart",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 7
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:saddle",
+												"weight": 10
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmorgold",
+												"weight": 8
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmoriron",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmordiamond",
+												"weight": 3
+											},
+											{
+												"type": "item",
+												"name": "minecraft:obsidian",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 4
+														}
+													}
+												],
+												"weight": 2
+											},
+											{
+												"type": "item",
+												"name": "ballistic:blizzard_sword",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												],
+												"weight": 4
+											},
+											{
+												"type": "item",
+												"name": "ballistic:thermal_sword",
+												"weight": 4
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:diamond",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 3
+													}
+												}
+											],
+											"weight": 5
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:diamond",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:iron_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 5
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:gold_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 15
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_sword",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_chestplate",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:flint_and_steel",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:nether_wart",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 7
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:saddle",
+												"weight": 10
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmorgold",
+												"weight": 8
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmoriron",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmordiamond",
+												"weight": 3
+											},
+											{
+												"type": "item",
+												"name": "minecraft:obsidian",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 4
+														}
+													}
+												],
+												"weight": 2
+											},
+											{
+												"type": "item",
+												"name": "ballistic:blizzard_sword",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												],
+												"weight": 4
+											},
+											{
+												"type": "item",
+												"name": "ballistic:thermal_sword",
+												"weight": 4
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:iron_ingot",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 5
+													}
+												}
+											],
+											"weight": 5
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:diamond",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:iron_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 5
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:gold_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 15
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_sword",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_chestplate",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:flint_and_steel",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:nether_wart",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 7
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:saddle",
+												"weight": 10
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmorgold",
+												"weight": 8
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmoriron",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmordiamond",
+												"weight": 3
+											},
+											{
+												"type": "item",
+												"name": "minecraft:obsidian",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 4
+														}
+													}
+												],
+												"weight": 2
+											},
+											{
+												"type": "item",
+												"name": "ballistic:blizzard_sword",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												],
+												"weight": 4
+											},
+											{
+												"type": "item",
+												"name": "ballistic:thermal_sword",
+												"weight": 4
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:gold_ingot",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 3
+													}
+												}
+											],
+											"weight": 15
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:diamond",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:iron_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 5
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:gold_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 15
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_sword",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_chestplate",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:flint_and_steel",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:nether_wart",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 7
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:saddle",
+												"weight": 10
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmorgold",
+												"weight": 8
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmoriron",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmordiamond",
+												"weight": 3
+											},
+											{
+												"type": "item",
+												"name": "minecraft:obsidian",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 4
+														}
+													}
+												],
+												"weight": 2
+											},
+											{
+												"type": "item",
+												"name": "ballistic:blizzard_sword",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												],
+												"weight": 4
+											},
+											{
+												"type": "item",
+												"name": "ballistic:thermal_sword",
+												"weight": 4
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:golden_sword",
+											"weight": 5
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:diamond",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:iron_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 5
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:gold_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 15
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_sword",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_chestplate",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:flint_and_steel",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:nether_wart",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 7
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:saddle",
+												"weight": 10
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmorgold",
+												"weight": 8
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmoriron",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmordiamond",
+												"weight": 3
+											},
+											{
+												"type": "item",
+												"name": "minecraft:obsidian",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 4
+														}
+													}
+												],
+												"weight": 2
+											},
+											{
+												"type": "item",
+												"name": "ballistic:blizzard_sword",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												],
+												"weight": 4
+											},
+											{
+												"type": "item",
+												"name": "ballistic:thermal_sword",
+												"weight": 4
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:golden_chestplate",
+											"weight": 5
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:diamond",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:iron_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 5
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:gold_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 15
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_sword",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_chestplate",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:flint_and_steel",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:nether_wart",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 7
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:saddle",
+												"weight": 10
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmorgold",
+												"weight": 8
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmoriron",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmordiamond",
+												"weight": 3
+											},
+											{
+												"type": "item",
+												"name": "minecraft:obsidian",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 4
+														}
+													}
+												],
+												"weight": 2
+											},
+											{
+												"type": "item",
+												"name": "ballistic:blizzard_sword",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												],
+												"weight": 4
+											},
+											{
+												"type": "item",
+												"name": "ballistic:thermal_sword",
+												"weight": 4
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:flint_and_steel",
+											"weight": 5
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:diamond",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:iron_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 5
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:gold_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 15
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_sword",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_chestplate",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:flint_and_steel",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:nether_wart",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 7
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:saddle",
+												"weight": 10
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmorgold",
+												"weight": 8
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmoriron",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmordiamond",
+												"weight": 3
+											},
+											{
+												"type": "item",
+												"name": "minecraft:obsidian",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 4
+														}
+													}
+												],
+												"weight": 2
+											},
+											{
+												"type": "item",
+												"name": "ballistic:blizzard_sword",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												],
+												"weight": 4
+											},
+											{
+												"type": "item",
+												"name": "ballistic:thermal_sword",
+												"weight": 4
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:nether_wart",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 3,
+														"max": 7
+													}
+												}
+											],
+											"weight": 5
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:diamond",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:iron_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 5
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:gold_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 15
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_sword",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_chestplate",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:flint_and_steel",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:nether_wart",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 7
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:saddle",
+												"weight": 10
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmorgold",
+												"weight": 8
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmoriron",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmordiamond",
+												"weight": 3
+											},
+											{
+												"type": "item",
+												"name": "minecraft:obsidian",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 4
+														}
+													}
+												],
+												"weight": 2
+											},
+											{
+												"type": "item",
+												"name": "ballistic:blizzard_sword",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												],
+												"weight": 4
+											},
+											{
+												"type": "item",
+												"name": "ballistic:thermal_sword",
+												"weight": 4
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:saddle",
+											"weight": 10
+										}
+									},
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:horsearmorgold",
+											"weight": 8
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:diamond",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:iron_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 5
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:gold_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 15
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_sword",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_chestplate",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:flint_and_steel",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:nether_wart",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 7
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:saddle",
+												"weight": 10
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmorgold",
+												"weight": 8
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmoriron",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmordiamond",
+												"weight": 3
+											},
+											{
+												"type": "item",
+												"name": "minecraft:obsidian",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 4
+														}
+													}
+												],
+												"weight": 2
+											},
+											{
+												"type": "item",
+												"name": "ballistic:blizzard_sword",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												],
+												"weight": 4
+											},
+											{
+												"type": "item",
+												"name": "ballistic:thermal_sword",
+												"weight": 4
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:horsearmoriron",
+											"weight": 5
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:diamond",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:iron_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 5
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:gold_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 15
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_sword",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_chestplate",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:flint_and_steel",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:nether_wart",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 7
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:saddle",
+												"weight": 10
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmorgold",
+												"weight": 8
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmoriron",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmordiamond",
+												"weight": 3
+											},
+											{
+												"type": "item",
+												"name": "minecraft:obsidian",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 4
+														}
+													}
+												],
+												"weight": 2
+											},
+											{
+												"type": "item",
+												"name": "ballistic:blizzard_sword",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												],
+												"weight": 4
+											},
+											{
+												"type": "item",
+												"name": "ballistic:thermal_sword",
+												"weight": 4
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:horsearmordiamond",
+											"weight": 3
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:diamond",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:iron_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 5
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:gold_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 15
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_sword",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_chestplate",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:flint_and_steel",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:nether_wart",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 7
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:saddle",
+												"weight": 10
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmorgold",
+												"weight": 8
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmoriron",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmordiamond",
+												"weight": 3
+											},
+											{
+												"type": "item",
+												"name": "minecraft:obsidian",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 4
+														}
+													}
+												],
+												"weight": 2
+											},
+											{
+												"type": "item",
+												"name": "ballistic:blizzard_sword",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												],
+												"weight": 4
+											},
+											{
+												"type": "item",
+												"name": "ballistic:thermal_sword",
+												"weight": 4
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:obsidian",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 2,
+														"max": 4
+													}
+												}
+											],
+											"weight": 2
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:diamond",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:iron_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 5
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:gold_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 15
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_sword",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_chestplate",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:flint_and_steel",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:nether_wart",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 7
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:saddle",
+												"weight": 10
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmorgold",
+												"weight": 8
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmoriron",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmordiamond",
+												"weight": 3
+											},
+											{
+												"type": "item",
+												"name": "minecraft:obsidian",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 4
+														}
+													}
+												],
+												"weight": 2
+											},
+											{
+												"type": "item",
+												"name": "ballistic:blizzard_sword",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												],
+												"weight": 4
+											},
+											{
+												"type": "item",
+												"name": "ballistic:thermal_sword",
+												"weight": 4
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "ballistic:blizzard_sword",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 1,
+																"max": 2
+															}
+														}
+													],
+													"weight": 4
+												},
+												"data": "ballistic:blizzard_sword",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "ballistic:blizzard_sword",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 1,
+																"max": 2
+															}
+														}
+													],
+													"weight": 4
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 1,
+																	"max": 2
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 1,
+																		"max": 2
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 1,
+																	"max": 2
+																}
+															}
+														]
+													}
+												]
+											},
+											{
+												"data": "4",
+												"key": "weight"
+											}
+										]
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:diamond",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:iron_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 5
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:gold_ingot",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												],
+												"weight": 15
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_sword",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:golden_chestplate",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:flint_and_steel",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:nether_wart",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 3,
+															"max": 7
+														}
+													}
+												],
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:saddle",
+												"weight": 10
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmorgold",
+												"weight": 8
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmoriron",
+												"weight": 5
+											},
+											{
+												"type": "item",
+												"name": "minecraft:horsearmordiamond",
+												"weight": 3
+											},
+											{
+												"type": "item",
+												"name": "minecraft:obsidian",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 4
+														}
+													}
+												],
+												"weight": 2
+											},
+											{
+												"type": "item",
+												"name": "ballistic:blizzard_sword",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												],
+												"weight": 4
+											},
+											{
+												"type": "item",
+												"name": "ballistic:thermal_sword",
+												"weight": 4
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "ballistic:thermal_sword",
+											"weight": 4
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

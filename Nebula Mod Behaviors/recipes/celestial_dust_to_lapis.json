@@ -1,0 +1,32 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ballistic:celestial_dust_to_lapis"
+		},
+		"tags": [
+			"transformation_table"
+		],
+		"pattern": [
+			"CCC",
+			"C#C",
+			"CCC"
+		],
+		"key": {
+			"C": {
+				"item": "ballistic:celestial_dust"
+			},
+			"#": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:dye",
+				"count": 1,
+				"data": 4
+			}
+		]
+	}
+}

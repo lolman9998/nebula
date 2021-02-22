@@ -1,0 +1,737 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\items\\emerald_sword.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "db095e30_bb8c_451a_90c3_e3423b3a1987",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ballistic:emerald_sword",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 3600,
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_damage": 2048
+							},
+							"minecraft:mining_speed": 1.5,
+							"minecraft:damage": 9,
+							"minecraft:enchantable": {
+								"value": 11,
+								"slot": "sword"
+							},
+							"minecraft:can_destroy_in_creative": false,
+							"minecraft:digger": {
+								"use_efficiency": false,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:web",
+										"speed": 15
+									},
+									{
+										"block": "minecraft:bamboo",
+										"speed": 10
+									}
+								]
+							},
+							"minecraft:render_offsets": "tools",
+							"minecraft:icon": {
+								"texture": "emerald_sword"
+							},
+							"minecraft:display_name": {
+								"value": "Emerald Sword"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"minecraft:emerald"
+										],
+										"repair_amount": 1024
+									}
+								]
+							},
+							"minecraft:weapon": {}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ballistic:emerald_sword",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 3600,
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_damage": 2048
+							},
+							"minecraft:mining_speed": 1.5,
+							"minecraft:damage": 9,
+							"minecraft:enchantable": {
+								"value": 11,
+								"slot": "sword"
+							},
+							"minecraft:can_destroy_in_creative": false,
+							"minecraft:digger": {
+								"use_efficiency": false,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:web",
+										"speed": 15
+									},
+									{
+										"block": "minecraft:bamboo",
+										"speed": 10
+									}
+								]
+							},
+							"minecraft:render_offsets": "tools",
+							"minecraft:icon": {
+								"texture": "emerald_sword"
+							},
+							"minecraft:display_name": {
+								"value": "Emerald Sword"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"minecraft:emerald"
+										],
+										"repair_amount": 1024
+									}
+								]
+							},
+							"minecraft:weapon": {}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:emerald_sword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_damage": 2048
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:damage": 9,
+								"minecraft:enchantable": {
+									"value": 11,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": false,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:icon": {
+									"texture": "emerald_sword"
+								},
+								"minecraft:display_name": {
+									"value": "Emerald Sword"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"minecraft:emerald"
+											],
+											"repair_amount": 1024
+										}
+									]
+								},
+								"minecraft:weapon": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:emerald_sword",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:emerald_sword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_damage": 2048
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:damage": 9,
+								"minecraft:enchantable": {
+									"value": 11,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": false,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:icon": {
+									"texture": "emerald_sword"
+								},
+								"minecraft:display_name": {
+									"value": "Emerald Sword"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"minecraft:emerald"
+											],
+											"repair_amount": 1024
+										}
+									]
+								},
+								"minecraft:weapon": {}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "3600",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 2048
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 9,
+									"minecraft:enchantable": {
+										"value": 11,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:icon": {
+										"texture": "emerald_sword"
+									},
+									"minecraft:display_name": {
+										"value": "Emerald Sword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:emerald"
+												],
+												"repair_amount": 1024
+											}
+										]
+									},
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_damage": 2048
+								}
+							},
+							{
+								"data": "1.5",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 2048
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 9,
+									"minecraft:enchantable": {
+										"value": 11,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:icon": {
+										"texture": "emerald_sword"
+									},
+									"minecraft:display_name": {
+										"value": "Emerald Sword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:emerald"
+												],
+												"repair_amount": 1024
+											}
+										]
+									},
+									"minecraft:weapon": {}
+								},
+								"data": "9",
+								"key": "minecraft:damage"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 2048
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 9,
+									"minecraft:enchantable": {
+										"value": 11,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:icon": {
+										"texture": "emerald_sword"
+									},
+									"minecraft:display_name": {
+										"value": "Emerald Sword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:emerald"
+												],
+												"repair_amount": 1024
+											}
+										]
+									},
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 11,
+									"slot": "sword"
+								}
+							},
+							{
+								"data": "false",
+								"key": "minecraft:can_destroy_in_creative"
+							},
+							{
+								"key": "minecraft:digger",
+								"is_minified": true,
+								"children": {
+									"use_efficiency": false,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								}
+							},
+							{
+								"data": "tools",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 2048
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 9,
+									"minecraft:enchantable": {
+										"value": 11,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:icon": {
+										"texture": "emerald_sword"
+									},
+									"minecraft:display_name": {
+										"value": "Emerald Sword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:emerald"
+												],
+												"repair_amount": 1024
+											}
+										]
+									},
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "emerald_sword"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 2048
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 9,
+									"minecraft:enchantable": {
+										"value": 11,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:icon": {
+										"texture": "emerald_sword"
+									},
+									"minecraft:display_name": {
+										"value": "Emerald Sword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:emerald"
+												],
+												"repair_amount": 1024
+											}
+										]
+									},
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Emerald Sword"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 2048
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 9,
+									"minecraft:enchantable": {
+										"value": 11,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:icon": {
+										"texture": "emerald_sword"
+									},
+									"minecraft:display_name": {
+										"value": "Emerald Sword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:emerald"
+												],
+												"repair_amount": 1024
+											}
+										]
+									},
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 2048
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 9,
+									"minecraft:enchantable": {
+										"value": 11,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:icon": {
+										"texture": "emerald_sword"
+									},
+									"minecraft:display_name": {
+										"value": "Emerald Sword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:emerald"
+												],
+												"repair_amount": 1024
+											}
+										]
+									},
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:repairable",
+								"children": [
+									{
+										"open": {
+											"repair_items": [
+												{
+													"items": [
+														"minecraft:emerald"
+													],
+													"repair_amount": 1024
+												}
+											]
+										},
+										"key": "repair_items",
+										"children": [
+											{
+												"open": [
+													{
+														"items": [
+															"minecraft:emerald"
+														],
+														"repair_amount": 1024
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"items": [
+																"minecraft:emerald"
+															],
+															"repair_amount": 1024
+														},
+														"key": "items",
+														"is_minified": true,
+														"children": [
+															"minecraft:emerald"
+														]
+													},
+													{
+														"data": "1024",
+														"key": "repair_amount"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

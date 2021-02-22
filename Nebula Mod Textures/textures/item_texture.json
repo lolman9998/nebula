@@ -1,0 +1,87 @@
+//bridge-file-version: #22
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"celestial_clam": {
+			"textures": [
+				"textures/items/celestial_clam"
+			]
+		},
+		"celestial_dust": {
+			"textures": [
+				"textures/items/celestial_dust"
+			]
+		},
+		"celestial_sword": {
+			"textures": [
+				"textures/items/celestial_sword"
+			]
+		},
+		"celestial_helmet": {
+			"textures": [
+				"textures/items/celestial_helmet"
+			]
+		},
+		"celestial_chestplate": {
+			"textures": [
+				"textures/items/celestial_chestplate"
+			]
+		},
+		"celestial_leggings": {
+			"textures": [
+				"textures/items/celestial_leggings"
+			]
+		},
+		"celestial_boots": {
+			"textures": [
+				"textures/items/celestial_boots"
+			]
+		},
+		"spawn_celestial_anomaly": {
+			"textures": [
+				"textures/items/spawn_celestial_anomaly"
+			]
+		},
+		"adrenaline_potion": {
+			"textures": [
+				"textures/items/adrenaline_potion"
+			]
+		},
+		"emerald_sword": {
+			"textures": [
+				"textures/items/emerald_sword"
+			]
+		},
+		"judgement_sword": {
+			"textures": [
+				"textures/items/judgement_sword"
+			]
+		},
+		"blizzard_sword": {
+			"textures": [
+				"textures/items/blizzard_sword"
+			]
+		},
+		"thermal_sword": {
+			"textures": [
+				"textures/items/thermal_sword"
+			]
+		},
+		"frost_charm": {
+			"textures": [
+				"textures/items/frost_charm"
+			]
+		},
+		"wither_bone": {
+			"textures": [
+				"textures/items/wither_bone"
+			]
+		},
+		"mod_guide_book": {
+			"textures": [
+				"textures/items/mod_guide_book"
+			]
+		}
+	}
+}

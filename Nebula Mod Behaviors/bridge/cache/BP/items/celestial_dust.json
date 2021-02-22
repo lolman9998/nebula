@@ -1,0 +1,117 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\items\\celestial_dust.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "724f648e_73de_4ed9_9375_df8103b394a3",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ballistic:celestial_dust",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:display_name": {
+								"value": "Celestial Dust"
+							},
+							"minecraft:icon": {
+								"texture": "celestial_dust"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_dust",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:display_name": {
+									"value": "Celestial Dust"
+								},
+								"minecraft:icon": {
+									"texture": "celestial_dust"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:celestial_dust",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_dust",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:display_name": {
+									"value": "Celestial Dust"
+								},
+								"minecraft:icon": {
+									"texture": "celestial_dust"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:display_name": {
+										"value": "Celestial Dust"
+									},
+									"minecraft:icon": {
+										"texture": "celestial_dust"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Celestial Dust"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:display_name": {
+										"value": "Celestial Dust"
+									},
+									"minecraft:icon": {
+										"texture": "celestial_dust"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "celestial_dust"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

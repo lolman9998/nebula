@@ -1,0 +1,271 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nebula Mod Textures\\blocks.json",
+	"file_type": "client_block",
+	"format_version": 1,
+	"file_uuid": "516dbf3d_0a21_4d88_8292_106ab5c3a1a0",
+	"file_version": 15,
+	"cache_content": {
+		"children": [
+			{
+				"key": "format_version",
+				"is_minified": true,
+				"children": [
+					1,
+					1,
+					0
+				]
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"ballistic:combat_table": {
+						"textures": {
+							"up": "combat_table_top",
+							"side": "combat_table_side",
+							"down": "combat_table_bottom"
+						},
+						"sound": "wood"
+					},
+					"ballistic:lantern_block": {
+						"textures": "lantern_block",
+						"sound": "lantern"
+					},
+					"ballistic:auqa_dungeon_brick": {
+						"textures": "aqua_dungeon_brick",
+						"sound": "nether_brick"
+					},
+					"ballistic:runic_auqa_dungeon_brick": {
+						"textures": "runic_aqua_dungeon_brick",
+						"sound": "nether_brick"
+					},
+					"ballistic:transformation_table": {
+						"textures": {
+							"up": "transformation_table_top",
+							"side": "transformation_table_side",
+							"down": "transformation_table_bottom"
+						},
+						"sound": "netherrack"
+					}
+				},
+				"key": "ballistic:combat_table",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "combat_table_top",
+								"side": "combat_table_side",
+								"down": "combat_table_bottom"
+							},
+							"sound": "wood"
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "combat_table_top",
+							"side": "combat_table_side",
+							"down": "combat_table_bottom"
+						}
+					},
+					{
+						"data": "wood",
+						"key": "sound"
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"ballistic:combat_table": {
+						"textures": {
+							"up": "combat_table_top",
+							"side": "combat_table_side",
+							"down": "combat_table_bottom"
+						},
+						"sound": "wood"
+					},
+					"ballistic:lantern_block": {
+						"textures": "lantern_block",
+						"sound": "lantern"
+					},
+					"ballistic:auqa_dungeon_brick": {
+						"textures": "aqua_dungeon_brick",
+						"sound": "nether_brick"
+					},
+					"ballistic:runic_auqa_dungeon_brick": {
+						"textures": "runic_aqua_dungeon_brick",
+						"sound": "nether_brick"
+					},
+					"ballistic:transformation_table": {
+						"textures": {
+							"up": "transformation_table_top",
+							"side": "transformation_table_side",
+							"down": "transformation_table_bottom"
+						},
+						"sound": "netherrack"
+					}
+				},
+				"key": "ballistic:lantern_block",
+				"is_minified": true,
+				"children": {
+					"textures": "lantern_block",
+					"sound": "lantern"
+				}
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"ballistic:combat_table": {
+						"textures": {
+							"up": "combat_table_top",
+							"side": "combat_table_side",
+							"down": "combat_table_bottom"
+						},
+						"sound": "wood"
+					},
+					"ballistic:lantern_block": {
+						"textures": "lantern_block",
+						"sound": "lantern"
+					},
+					"ballistic:auqa_dungeon_brick": {
+						"textures": "aqua_dungeon_brick",
+						"sound": "nether_brick"
+					},
+					"ballistic:runic_auqa_dungeon_brick": {
+						"textures": "runic_aqua_dungeon_brick",
+						"sound": "nether_brick"
+					},
+					"ballistic:transformation_table": {
+						"textures": {
+							"up": "transformation_table_top",
+							"side": "transformation_table_side",
+							"down": "transformation_table_bottom"
+						},
+						"sound": "netherrack"
+					}
+				},
+				"key": "ballistic:auqa_dungeon_brick",
+				"is_minified": true,
+				"children": {
+					"textures": "aqua_dungeon_brick",
+					"sound": "nether_brick"
+				}
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"ballistic:combat_table": {
+						"textures": {
+							"up": "combat_table_top",
+							"side": "combat_table_side",
+							"down": "combat_table_bottom"
+						},
+						"sound": "wood"
+					},
+					"ballistic:lantern_block": {
+						"textures": "lantern_block",
+						"sound": "lantern"
+					},
+					"ballistic:auqa_dungeon_brick": {
+						"textures": "aqua_dungeon_brick",
+						"sound": "nether_brick"
+					},
+					"ballistic:runic_auqa_dungeon_brick": {
+						"textures": "runic_aqua_dungeon_brick",
+						"sound": "nether_brick"
+					},
+					"ballistic:transformation_table": {
+						"textures": {
+							"up": "transformation_table_top",
+							"side": "transformation_table_side",
+							"down": "transformation_table_bottom"
+						},
+						"sound": "netherrack"
+					}
+				},
+				"key": "ballistic:runic_auqa_dungeon_brick",
+				"is_minified": true,
+				"children": {
+					"textures": "runic_aqua_dungeon_brick",
+					"sound": "nether_brick"
+				}
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"ballistic:combat_table": {
+						"textures": {
+							"up": "combat_table_top",
+							"side": "combat_table_side",
+							"down": "combat_table_bottom"
+						},
+						"sound": "wood"
+					},
+					"ballistic:lantern_block": {
+						"textures": "lantern_block",
+						"sound": "lantern"
+					},
+					"ballistic:auqa_dungeon_brick": {
+						"textures": "aqua_dungeon_brick",
+						"sound": "nether_brick"
+					},
+					"ballistic:runic_auqa_dungeon_brick": {
+						"textures": "runic_aqua_dungeon_brick",
+						"sound": "nether_brick"
+					},
+					"ballistic:transformation_table": {
+						"textures": {
+							"up": "transformation_table_top",
+							"side": "transformation_table_side",
+							"down": "transformation_table_bottom"
+						},
+						"sound": "netherrack"
+					}
+				},
+				"key": "ballistic:transformation_table",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "transformation_table_top",
+								"side": "transformation_table_side",
+								"down": "transformation_table_bottom"
+							},
+							"sound": "netherrack"
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "transformation_table_top",
+							"side": "transformation_table_side",
+							"down": "transformation_table_bottom"
+						}
+					},
+					{
+						"data": "netherrack",
+						"key": "sound"
+					}
+				]
+			}
+		]
+	}
+}

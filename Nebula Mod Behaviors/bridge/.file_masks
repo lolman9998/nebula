@@ -1,0 +1,376 @@
+{
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"a05adb1f_f44d_43cc_a811_17cd26605750": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"04b58478_ac60_40da_bbc6_22b619476e36": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"724f648e_73de_4ed9_9375_df8103b394a3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"8e86d690_3dba_4954_9452_aa5f8450a1d2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cc451627_9e4f_4bda_9396_7e294a80d710": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"dd2ebad4_486a_4fd6_b212_8bbd6ba7a2ae": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"41c19882_22c8_44fc_b453_354dcfededa0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c671e606_33a6_4dd2_9c2b_bc497bf0e128": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"848a7c12_9443_4dba_a538_2d12ce1073ff": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1da12747_9579_45ec_8c3d_c20454c42e35": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"db095e30_bb8c_451a_90c3_e3423b3a1987": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0442a8a6_1098_43a8_978d_701262d5dd46": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"884f16f5_25e8_476f_8cfe_1d6b9a94ed68": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b78cec28_1644_47d8_8057_109b5a02465a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f7a0a428_ef8a_499e_a724_16e14b215537": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"aaea5dd9_a9e1_4cd9_8fc9_c650ef98d647": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"RP/ Textures/textures/item_texture.json": {
+		"data": {}
+	},
+	"RP/ Textures/blocks.json": {
+		"data": {}
+	},
+	"RP/ Textures/textures/terrain_texture.json": {
+		"data": {}
+	},
+	"BP/recipes/elytra.json": {
+		"data": {}
+	},
+	"BP/recipes/celestial_clam.json": {
+		"data": {}
+	},
+	"RP/ Textures/particles/celestial_plus.json": {
+		"data": {}
+	},
+	"RP/ Textures/entity/celestial_anomaly.json": {
+		"data": {}
+	},
+	"RP/ Textures/models/geometry.celestial_anomaly.json": {
+		"data": {}
+	},
+	"BP/blocks/combat_table.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"RP/ Textures/render_controllers/controller.render.entity.json": {
+		"data": {}
+	},
+	"RP/ Textures/particles/large_celestial_plus.json": {
+		"data": {}
+	},
+	"BP/items/celestial_clam.json": {
+		"data": {}
+	},
+	"BP/items/celestial_dust.json": {
+		"data": {}
+	},
+	"BP/items/celestial_sword.json": {
+		"data": {}
+	},
+	"BP/recipes/nautilus_shell.json": {
+		"data": {}
+	},
+	"BP/recipes/celestial_sword.json": {
+		"data": {}
+	},
+	"BP/items/celestial_helmet.json": {
+		"data": {}
+	},
+	"RP/ Textures/attachables/celestial_helmet.json": {
+		"data": {}
+	},
+	"RP/ Textures/attachables/celestial_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/celestial_chestplate.json": {
+		"data": {}
+	},
+	"BP/recipes/celestial_helmet.json": {
+		"data": {}
+	},
+	"BP/recipes/celestial_chestplate.json": {
+		"data": {}
+	},
+	"BP/recipes/celestial_leggings.json": {
+		"data": {}
+	},
+	"BP/recipes/celestial_boots.json": {
+		"data": {}
+	},
+	"BP/items/celestial_leggings.json": {
+		"data": {}
+	},
+	"BP/items/celestial_boots.json": {
+		"data": {}
+	},
+	"RP/ Textures/attachables/celestial_leggings.json": {
+		"data": {}
+	},
+	"RP/ Textures/attachables/celestial_boots.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/celestial_anomaly.json": {
+		"data": {}
+	},
+	"BP/items/adrenaline_potion.json": {
+		"data": {}
+	},
+	"BP/blocks/lantern_block.json": {
+		"data": {}
+	},
+	"BP/blocks/auqa_dungeon_brick.json": {
+		"data": {}
+	},
+	"BP/blocks/runic_auqa_dungeon_brick.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/wither_boss.json": {
+		"data": {}
+	},
+	"BP/entities/celestial_anomaly.json": {
+		"data": {}
+	},
+	"BP/recipes/chainmail_helmet.json": {
+		"data": {}
+	},
+	"BP/recipes/chainmail_chestplate.json": {
+		"data": {}
+	},
+	"BP/recipes/chainmail_leggings.json": {
+		"data": {}
+	},
+	"BP/recipes/chainmail_boots.json": {
+		"data": {}
+	},
+	"BP/recipes/emerald_sword.json": {
+		"data": {}
+	},
+	"BP/items/emerald_sword.json": {
+		"data": {}
+	},
+	"RP/ Textures/animation_controllers/celestial_anomaly.animation_controllers.json": {
+		"data": {}
+	},
+	"RP/ Textures/animations/celestial_anomaly.rotation_side.animation.json": {
+		"data": {}
+	},
+	"RP/ Textures/animations/celestial_anomaly.rotation_top.animation.json": {
+		"data": {}
+	},
+	"BP/items/blizzard_sword.json": {
+		"data": {}
+	},
+	"BP/items/judgement_sword.json": {
+		"data": {}
+	},
+	"BP/recipes/judgement_sword.json": {
+		"data": {}
+	},
+	"BP/loot_tables/chests/nether_bridge.json": {
+		"data": {}
+	},
+	"BP/items/thermal_sword.json": {
+		"data": {}
+	},
+	"BP/recipes/thermal_sword.json": {
+		"data": {}
+	},
+	"BP/blocks/transformation_table.json": {
+		"data": {}
+	},
+	"BP/recipes/transformation_table.json": {
+		"data": {}
+	},
+	"BP/recipes/celestial_dust_to_diamond.json": {
+		"data": {}
+	},
+	"BP/recipes/celestial_dust_to_emerald.json": {
+		"data": {}
+	},
+	"BP/recipes/celestial_dust_to_quartz.json": {
+		"data": {}
+	},
+	"BP/recipes/celestial_dust_to_lapis.json": {
+		"data": {}
+	},
+	"BP/recipes/celestial_dust_to_coal.json": {
+		"data": {}
+	},
+	"BP/recipes/celestial_dust_to_redstone.json": {
+		"data": {}
+	},
+	"BP/recipes/celestial_dust_to_gold.json": {
+		"data": {}
+	},
+	"BP/recipes/celestial_dust_to_iron.json": {
+		"data": {}
+	},
+	"BP/items/frost_charm.json": {
+		"data": {}
+	},
+	"BP/items/wither_bone.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/wither_skeleton.json": {
+		"data": {}
+	},
+	"BP/recipes/wither_skeleton_skull.json": {
+		"data": {}
+	},
+	"BP/loot_tables/books/mod_guide_book.json": {
+		"data": {}
+	},
+	"BP/items/mod_guide_book.json": {
+		"data": {}
+	},
+	"BP/recipes/combat_table.json": {
+		"data": {}
+	},
+	"BP/entities/mod_guide_book_entity.json": {
+		"data": {}
+	},
+	"BP/recipes/mod_guide_book.json": {
+		"data": {}
+	}
+}

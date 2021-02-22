@@ -1,0 +1,220 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\blocks\\combat_table.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "cd108d59_ba1e_4c94_ac41_35c7d680b5f6",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ballistic:combat_table",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 1,
+							"minecraft:flammable": {
+								"burn_odds": 0.3,
+								"flame_odds": 0.3
+							},
+							"minecraft:explosion_resistance": 0.8,
+							"minecraft:crafting_table": {
+								"grid_size": 3,
+								"crafting_tags": [
+									"combat_table"
+								],
+								"custom_description": "Combat Table"
+							},
+							"minecraft:map_color": "#AD0808"
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:combat_table",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:flammable": {
+									"burn_odds": 0.3,
+									"flame_odds": 0.3
+								},
+								"minecraft:explosion_resistance": 0.8,
+								"minecraft:crafting_table": {
+									"grid_size": 3,
+									"crafting_tags": [
+										"combat_table"
+									],
+									"custom_description": "Combat Table"
+								},
+								"minecraft:map_color": "#AD0808"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:combat_table",
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:combat_table",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:flammable": {
+									"burn_odds": 0.3,
+									"flame_odds": 0.3
+								},
+								"minecraft:explosion_resistance": 0.8,
+								"minecraft:crafting_table": {
+									"grid_size": 3,
+									"crafting_tags": [
+										"combat_table"
+									],
+									"custom_description": "Combat Table"
+								},
+								"minecraft:map_color": "#AD0808"
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:destroy_time": 1,
+									"minecraft:flammable": {
+										"burn_odds": 0.3,
+										"flame_odds": 0.3
+									},
+									"minecraft:explosion_resistance": 0.8,
+									"minecraft:crafting_table": {
+										"grid_size": 3,
+										"crafting_tags": [
+											"combat_table"
+										],
+										"custom_description": "Combat Table"
+									},
+									"minecraft:map_color": "#AD0808"
+								},
+								"data": "1",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1,
+									"minecraft:flammable": {
+										"burn_odds": 0.3,
+										"flame_odds": 0.3
+									},
+									"minecraft:explosion_resistance": 0.8,
+									"minecraft:crafting_table": {
+										"grid_size": 3,
+										"crafting_tags": [
+											"combat_table"
+										],
+										"custom_description": "Combat Table"
+									},
+									"minecraft:map_color": "#AD0808"
+								},
+								"key": "minecraft:flammable",
+								"is_minified": true,
+								"children": {
+									"burn_odds": 0.3,
+									"flame_odds": 0.3
+								}
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1,
+									"minecraft:flammable": {
+										"burn_odds": 0.3,
+										"flame_odds": 0.3
+									},
+									"minecraft:explosion_resistance": 0.8,
+									"minecraft:crafting_table": {
+										"grid_size": 3,
+										"crafting_tags": [
+											"combat_table"
+										],
+										"custom_description": "Combat Table"
+									},
+									"minecraft:map_color": "#AD0808"
+								},
+								"data": "0.8",
+								"key": "minecraft:explosion_resistance"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1,
+									"minecraft:flammable": {
+										"burn_odds": 0.3,
+										"flame_odds": 0.3
+									},
+									"minecraft:explosion_resistance": 0.8,
+									"minecraft:crafting_table": {
+										"grid_size": 3,
+										"crafting_tags": [
+											"combat_table"
+										],
+										"custom_description": "Combat Table"
+									},
+									"minecraft:map_color": "#AD0808"
+								},
+								"key": "minecraft:crafting_table",
+								"children": [
+									{
+										"data": "3",
+										"key": "grid_size"
+									},
+									{
+										"open": {
+											"grid_size": 3,
+											"crafting_tags": [
+												"combat_table"
+											],
+											"custom_description": "Combat Table"
+										},
+										"key": "crafting_tags",
+										"is_minified": true,
+										"children": [
+											"combat_table"
+										]
+									},
+									{
+										"open": {
+											"grid_size": 3,
+											"crafting_tags": [
+												"combat_table"
+											],
+											"custom_description": "Combat Table"
+										},
+										"data": "Combat Table",
+										"key": "custom_description"
+									}
+								]
+							},
+							{
+								"data": "#AD0808",
+								"key": "minecraft:map_color"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,38 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ballistic:transformation_table",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 2,
+			"minecraft:crafting_table": {
+				"custom_description": "Transformations",
+				"crafting_tags": [
+					"transformation_table",
+					"crafting_table"
+				],
+				"grid_size": 3
+			},
+			"minecraft:map_color": "#B432D6",
+			"minecraft:explosion_resistance": 1,
+			"minecraft:on_player_destroyed": {
+				"event": "ballistic:transformation_table_particle"
+			},
+			"minecraft:on_placed": {
+				"event": "ballistic:transformation_table_particle"
+			}
+		},
+		"events": {
+			"ballistic:transformation_table_particle": {
+				"run_command": {
+					"command": [
+						"particle ballistic:large_celestial_plus ~ ~ ~"
+					]
+				}
+			}
+		}
+	}
+}

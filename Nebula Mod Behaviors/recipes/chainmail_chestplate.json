@@ -1,0 +1,28 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ballistic:chainmail_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"N N",
+			"NNN",
+			"NNN"
+		],
+		"key": {
+			"N": {
+				"item": "minecraft:iron_nugget"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:chainmail_chestplate",
+				"count": 1
+			}
+		]
+	}
+}

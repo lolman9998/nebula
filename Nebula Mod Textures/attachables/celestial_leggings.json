@@ -1,0 +1,29 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.100",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ballistic:celestial_leggings",
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/models/armor/celestial_2",
+				"enchanted": "textures/models/glint/celestial"
+			},
+			"geometry": {
+				"default": "geometry.player.armor.leggings"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			],
+			"scripts": {
+				"parent_setup": "variable.leg_layer_visible = 0.0;"
+			},
+			"item": {
+				"ballistic:celestial_leggings": "query.owner_identifier == 'minecraft:player'"
+			}
+		}
+	}
+}

@@ -1,0 +1,247 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nebula Mod Textures\\models\\celestial_being.geo.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "3cbdd4b6_cbaa_4e14_940a_708739aed103",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.12.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.12.0",
+					"minecraft:geometry": [
+						{
+							"description": {
+								"identifier": "geometry.celestial_anomaly",
+								"texture_width": 128,
+								"texture_height": 128,
+								"visible_bounds_width": 3,
+								"visible_bounds_height": 4,
+								"visible_bounds_offset": [
+									0,
+									0,
+									0
+								]
+							},
+							"bones": [
+								{
+									"name": "body",
+									"pivot": [
+										0,
+										2.66667,
+										0
+									],
+									"cubes": [
+										{
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												16,
+												16
+											],
+											"uv": [
+												0,
+												0
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "minecraft:geometry",
+				"children": [
+					{
+						"open": [
+							{
+								"description": {
+									"identifier": "geometry.celestial_anomaly",
+									"texture_width": 128,
+									"texture_height": 128,
+									"visible_bounds_width": 3,
+									"visible_bounds_height": 4,
+									"visible_bounds_offset": [
+										0,
+										0,
+										0
+									]
+								},
+								"bones": [
+									{
+										"name": "body",
+										"pivot": [
+											0,
+											2.66667,
+											0
+										],
+										"cubes": [
+											{
+												"origin": [
+													-8,
+													0,
+													-8
+												],
+												"size": [
+													16,
+													16,
+													16
+												],
+												"uv": [
+													0,
+													0
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"description": {
+										"identifier": "geometry.celestial_anomaly",
+										"texture_width": 128,
+										"texture_height": 128,
+										"visible_bounds_width": 3,
+										"visible_bounds_height": 4,
+										"visible_bounds_offset": [
+											0,
+											0,
+											0
+										]
+									},
+									"bones": [
+										{
+											"name": "body",
+											"pivot": [
+												0,
+												2.66667,
+												0
+											],
+											"cubes": [
+												{
+													"origin": [
+														-8,
+														0,
+														-8
+													],
+													"size": [
+														16,
+														16,
+														16
+													],
+													"uv": [
+														0,
+														0
+													]
+												}
+											]
+										}
+									]
+								},
+								"key": "description",
+								"is_minified": true,
+								"children": {
+									"identifier": "geometry.celestial_anomaly",
+									"texture_width": 128,
+									"texture_height": 128,
+									"visible_bounds_width": 3,
+									"visible_bounds_height": 4,
+									"visible_bounds_offset": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"open": {
+									"description": {
+										"identifier": "geometry.celestial_anomaly",
+										"texture_width": 128,
+										"texture_height": 128,
+										"visible_bounds_width": 3,
+										"visible_bounds_height": 4,
+										"visible_bounds_offset": [
+											0,
+											0,
+											0
+										]
+									},
+									"bones": [
+										{
+											"name": "body",
+											"pivot": [
+												0,
+												2.66667,
+												0
+											],
+											"cubes": [
+												{
+													"origin": [
+														-8,
+														0,
+														-8
+													],
+													"size": [
+														16,
+														16,
+														16
+													],
+													"uv": [
+														0,
+														0
+													]
+												}
+											]
+										}
+									]
+								},
+								"key": "bones",
+								"is_minified": true,
+								"children": [
+									{
+										"name": "body",
+										"pivot": [
+											0,
+											2.66667,
+											0
+										],
+										"cubes": [
+											{
+												"origin": [
+													-8,
+													0,
+													-8
+												],
+												"size": [
+													16,
+													16,
+													16
+												],
+												"uv": [
+													0,
+													0
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

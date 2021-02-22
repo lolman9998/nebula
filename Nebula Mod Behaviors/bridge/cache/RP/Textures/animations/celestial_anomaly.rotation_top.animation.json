@@ -1,0 +1,94 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nebula Mod Textures\\animations\\celestial_anomaly.rotation_top.animation.json",
+	"file_type": "rp_animation",
+	"format_version": 1,
+	"file_uuid": "718e12f8_4cda_440d_832b_fc944a7cf814",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"animations": {
+						"animation.celestial_anomaly.rotate_top": {
+							"loop": true,
+							"animation_length": 0.52,
+							"bones": {
+								"rotate": {
+									"rotation": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.52": [
+											0,
+											360,
+											0
+										]
+									}
+								}
+							},
+							"override_previous_animation": false
+						}
+					}
+				},
+				"key": "animations",
+				"children": [
+					{
+						"open": {
+							"animation.celestial_anomaly.rotate_top": {
+								"loop": true,
+								"animation_length": 0.52,
+								"bones": {
+									"rotate": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.52": [
+												0,
+												360,
+												0
+											]
+										}
+									}
+								},
+								"override_previous_animation": false
+							}
+						},
+						"key": "animation.celestial_anomaly.rotate_top",
+						"is_minified": true,
+						"children": {
+							"loop": true,
+							"animation_length": 0.52,
+							"bones": {
+								"rotate": {
+									"rotation": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.52": [
+											0,
+											360,
+											0
+										]
+									}
+								}
+							},
+							"override_previous_animation": false
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ballistic:transformation_table"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"CCC",
+			"CWC",
+			"CCC"
+		],
+		"key": {
+			"C": {
+				"item": "ballistic:celestial_dust"
+			},
+			"W": {
+				"item": "minecraft:crafting_table"
+			}
+		},
+		"result": [
+			{
+				"item": "ballistic:transformation_table",
+				"count": 1
+			}
+		]
+	}
+}

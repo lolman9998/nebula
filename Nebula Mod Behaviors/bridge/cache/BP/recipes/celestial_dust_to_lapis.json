@@ -1,0 +1,269 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\recipes\\celestial_dust_to_lapis.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "dfa9bff4_73db_4476_b7ea_83309c5af696",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ballistic:celestial_dust_to_lapis"
+						},
+						"tags": [
+							"transformation_table"
+						],
+						"pattern": [
+							"CCC",
+							"C#C",
+							"CCC"
+						],
+						"key": {
+							"C": {
+								"item": "ballistic:celestial_dust"
+							},
+							"#": {
+								"item": "minecraft:diamond"
+							}
+						},
+						"result": [
+							{
+								"item": "minecraft:dye",
+								"count": 1,
+								"data": 4
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_dust_to_lapis"
+							},
+							"tags": [
+								"transformation_table"
+							],
+							"pattern": [
+								"CCC",
+								"C#C",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"#": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:dye",
+									"count": 1,
+									"data": 4
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:celestial_dust_to_lapis"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_dust_to_lapis"
+							},
+							"tags": [
+								"transformation_table"
+							],
+							"pattern": [
+								"CCC",
+								"C#C",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"#": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:dye",
+									"count": 1,
+									"data": 4
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"transformation_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_dust_to_lapis"
+							},
+							"tags": [
+								"transformation_table"
+							],
+							"pattern": [
+								"CCC",
+								"C#C",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"#": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:dye",
+									"count": 1,
+									"data": 4
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"CCC",
+							"C#C",
+							"CCC"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_dust_to_lapis"
+							},
+							"tags": [
+								"transformation_table"
+							],
+							"pattern": [
+								"CCC",
+								"C#C",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"#": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:dye",
+									"count": 1,
+									"data": 4
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"C": {
+										"item": "ballistic:celestial_dust"
+									},
+									"#": {
+										"item": "minecraft:diamond"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							{
+								"open": {
+									"C": {
+										"item": "ballistic:celestial_dust"
+									},
+									"#": {
+										"item": "minecraft:diamond"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:diamond"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_dust_to_lapis"
+							},
+							"tags": [
+								"transformation_table"
+							],
+							"pattern": [
+								"CCC",
+								"C#C",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"#": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:dye",
+									"count": 1,
+									"data": 4
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "minecraft:dye",
+										"count": 1,
+										"data": 4
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:dye",
+									"count": 1,
+									"data": 4
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

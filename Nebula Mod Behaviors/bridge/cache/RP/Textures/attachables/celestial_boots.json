@@ -1,0 +1,287 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nebula Mod Textures\\attachables\\celestial_boots.json",
+	"file_type": "attachable",
+	"format_version": 1,
+	"file_uuid": "88f5b3d5_7be6_4a00_a547_0c7ac607d791",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:attachable": {
+						"description": {
+							"identifier": "ballistic:celestial_boots",
+							"materials": {
+								"default": "armor",
+								"enchanted": "armor_enchanted"
+							},
+							"textures": {
+								"default": "textures/models/armor/celestial_1",
+								"enchanted": "textures/models/glint/celestial"
+							},
+							"geometry": {
+								"default": "geometry.player.armor.boots"
+							},
+							"render_controllers": [
+								"controller.render.armor"
+							],
+							"scripts": {
+								"parent_setup": "variable.boot_layer_visible = 0.0;"
+							},
+							"item": {
+								"ballistic:celestial_boots": "query.owner_identifier == 'minecraft:player'"
+							}
+						}
+					}
+				},
+				"key": "minecraft:attachable",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_boots",
+								"materials": {
+									"default": "armor",
+									"enchanted": "armor_enchanted"
+								},
+								"textures": {
+									"default": "textures/models/armor/celestial_1",
+									"enchanted": "textures/models/glint/celestial"
+								},
+								"geometry": {
+									"default": "geometry.player.armor.boots"
+								},
+								"render_controllers": [
+									"controller.render.armor"
+								],
+								"scripts": {
+									"parent_setup": "variable.boot_layer_visible = 0.0;"
+								},
+								"item": {
+									"ballistic:celestial_boots": "query.owner_identifier == 'minecraft:player'"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "ballistic:celestial_boots",
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/models/armor/celestial_1",
+										"enchanted": "textures/models/glint/celestial"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.boots"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									],
+									"scripts": {
+										"parent_setup": "variable.boot_layer_visible = 0.0;"
+									},
+									"item": {
+										"ballistic:celestial_boots": "query.owner_identifier == 'minecraft:player'"
+									}
+								},
+								"data": "ballistic:celestial_boots",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "ballistic:celestial_boots",
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/models/armor/celestial_1",
+										"enchanted": "textures/models/glint/celestial"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.boots"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									],
+									"scripts": {
+										"parent_setup": "variable.boot_layer_visible = 0.0;"
+									},
+									"item": {
+										"ballistic:celestial_boots": "query.owner_identifier == 'minecraft:player'"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "armor",
+									"enchanted": "armor_enchanted"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ballistic:celestial_boots",
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/models/armor/celestial_1",
+										"enchanted": "textures/models/glint/celestial"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.boots"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									],
+									"scripts": {
+										"parent_setup": "variable.boot_layer_visible = 0.0;"
+									},
+									"item": {
+										"ballistic:celestial_boots": "query.owner_identifier == 'minecraft:player'"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/models/armor/celestial_1",
+									"enchanted": "textures/models/glint/celestial"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ballistic:celestial_boots",
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/models/armor/celestial_1",
+										"enchanted": "textures/models/glint/celestial"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.boots"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									],
+									"scripts": {
+										"parent_setup": "variable.boot_layer_visible = 0.0;"
+									},
+									"item": {
+										"ballistic:celestial_boots": "query.owner_identifier == 'minecraft:player'"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.player.armor.boots"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ballistic:celestial_boots",
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/models/armor/celestial_1",
+										"enchanted": "textures/models/glint/celestial"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.boots"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									],
+									"scripts": {
+										"parent_setup": "variable.boot_layer_visible = 0.0;"
+									},
+									"item": {
+										"ballistic:celestial_boots": "query.owner_identifier == 'minecraft:player'"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.armor"
+								]
+							},
+							{
+								"open": {
+									"identifier": "ballistic:celestial_boots",
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/models/armor/celestial_1",
+										"enchanted": "textures/models/glint/celestial"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.boots"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									],
+									"scripts": {
+										"parent_setup": "variable.boot_layer_visible = 0.0;"
+									},
+									"item": {
+										"ballistic:celestial_boots": "query.owner_identifier == 'minecraft:player'"
+									}
+								},
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"parent_setup": "variable.boot_layer_visible = 0.0;"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ballistic:celestial_boots",
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/models/armor/celestial_1",
+										"enchanted": "textures/models/glint/celestial"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.boots"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									],
+									"scripts": {
+										"parent_setup": "variable.boot_layer_visible = 0.0;"
+									},
+									"item": {
+										"ballistic:celestial_boots": "query.owner_identifier == 'minecraft:player'"
+									}
+								},
+								"key": "item",
+								"is_minified": true,
+								"children": {
+									"ballistic:celestial_boots": "query.owner_identifier == 'minecraft:player'"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

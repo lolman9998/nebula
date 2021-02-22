@@ -1,0 +1,261 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\recipes\\celestial_dust_to_gold.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "550d82fc_12df_4354_bdf2_811955c0f351",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ballistic:celestial_dust_to_gold"
+						},
+						"tags": [
+							"transformation_table"
+						],
+						"pattern": [
+							"CCC",
+							"C#C",
+							"CCC"
+						],
+						"key": {
+							"C": {
+								"item": "ballistic:celestial_dust"
+							},
+							"#": {
+								"item": "minecraft:redstone"
+							}
+						},
+						"result": [
+							{
+								"item": "minecraft:gold_ingot",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_dust_to_gold"
+							},
+							"tags": [
+								"transformation_table"
+							],
+							"pattern": [
+								"CCC",
+								"C#C",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"#": {
+									"item": "minecraft:redstone"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:gold_ingot",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:celestial_dust_to_gold"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_dust_to_gold"
+							},
+							"tags": [
+								"transformation_table"
+							],
+							"pattern": [
+								"CCC",
+								"C#C",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"#": {
+									"item": "minecraft:redstone"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:gold_ingot",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"transformation_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_dust_to_gold"
+							},
+							"tags": [
+								"transformation_table"
+							],
+							"pattern": [
+								"CCC",
+								"C#C",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"#": {
+									"item": "minecraft:redstone"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:gold_ingot",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"CCC",
+							"C#C",
+							"CCC"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_dust_to_gold"
+							},
+							"tags": [
+								"transformation_table"
+							],
+							"pattern": [
+								"CCC",
+								"C#C",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"#": {
+									"item": "minecraft:redstone"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:gold_ingot",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"C": {
+										"item": "ballistic:celestial_dust"
+									},
+									"#": {
+										"item": "minecraft:redstone"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							{
+								"open": {
+									"C": {
+										"item": "ballistic:celestial_dust"
+									},
+									"#": {
+										"item": "minecraft:redstone"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:redstone"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_dust_to_gold"
+							},
+							"tags": [
+								"transformation_table"
+							],
+							"pattern": [
+								"CCC",
+								"C#C",
+								"CCC"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								},
+								"#": {
+									"item": "minecraft:redstone"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:gold_ingot",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "minecraft:gold_ingot",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:gold_ingot",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

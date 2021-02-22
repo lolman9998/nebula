@@ -1,0 +1,26 @@
+//bridge-file-version: #3
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "set_book_contents",
+							"author": "Steve",
+							"title": "Nebula Mod Guide",
+							"pages": [
+								"§b>>>>>>>>>>> <<<<<<<<<<<§r\nThis book contains recipes for blocks as well as information on gameplay and bosses.\n§b>>>>>>>>>>> <<<<<<<<<<<",
+								"§b>>>>>>>>>>> <<<<<<<<<<<\n§r§lSection 1: Crafting\n§rCombat Table\n§g==\n§c##\n##\n§rKey\n§g= Gold Ingot\n§c# Planks\n§rThis crafting table is used to create boss summons.\n§r§b>>>>>>>>>>> <<<<<<<<<<<§r",
+								"§b>>>>>>>>>>> <<<<<<<<<<<\n§rTransformation Table\n§5+++\n§5+§c#§5+\n+++\n§rKey\n§5+ Celestial Dust\n§c# Crafting Table\n§rThe transformation table is used as an advanced crafting table with immense power.\n§b>>>>>>>>>>> <<<<<<<<<<<§r"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.celestial_anomaly",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 2.66667, 0],
+					"cubes": [
+						{"origin": [-8, 0, -8], "size": [16, 16, 16], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "rotate",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-18, 6, -2], "size": [4, 4, 4], "uv": [0, 0]},
+						{"origin": [14, 6, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": true},
+						{"origin": [-2, 22, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": true},
+						{"origin": [-14, 18, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": true},
+						{"origin": [10, 18, -2], "size": [4, 4, 4], "uv": [0, 0]},
+						{"origin": [10, -6, -2], "size": [4, 4, 4], "uv": [0, 0]},
+						{"origin": [-14, -6, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": true},
+						{"origin": [-2, -10, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "rotate2",
+					"pivot": [0, 8, 0],
+					"rotation": [-90, 0, 0],
+					"cubes": [
+						{"origin": [-18, 6, -2], "size": [4, 4, 4], "uv": [0, 0]},
+						{"origin": [14, 6, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": true},
+						{"origin": [-2, 22, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": true},
+						{"origin": [-14, 18, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": true},
+						{"origin": [10, 18, -2], "size": [4, 4, 4], "uv": [0, 0]},
+						{"origin": [10, -6, -2], "size": [4, 4, 4], "uv": [0, 0]},
+						{"origin": [-14, -6, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": true},
+						{"origin": [-2, -10, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1437 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\entities\\celestial_anomaly.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "5b0e0ab4_a58d_4ad5_a2a3_aaf65a6e8319",
+	"file_version": 12,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "ballistic:celestial_anomaly",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:experience_reward": {
+								"on_death": 40
+							},
+							"minecraft:breathable": {
+								"total_supply": 15,
+								"suffocate_time": 0
+							},
+							"minecraft:fire_immune": true,
+							"minecraft:nameable": {},
+							"minecraft:health": {
+								"value": 150,
+								"max": 150
+							},
+							"minecraft:collision_box": {
+								"width": 1,
+								"height": 1
+							},
+							"minecraft:movement": {
+								"value": 0.05
+							},
+							"minecraft:navigation.float": {
+								"can_path_over_water": true
+							},
+							"minecraft:behavior.float_wander": {
+								"priority": 2,
+								"must_reach": true
+							},
+							"minecraft:can_fly": true,
+							"minecraft:loot": {
+								"table": "loot_tables/entities/celestial_anomaly.json"
+							},
+							"minecraft:shooter": {
+								"def": "minecraft:small_fireball"
+							},
+							"minecraft:type_family": {
+								"family": [
+									"celestial_being",
+									"monster",
+									"mob"
+								]
+							},
+							"minecraft:damage_sensor": {
+								"triggers": {
+									"cause": "fall",
+									"deals_damage": false
+								}
+							},
+							"minecraft:jump.static": {},
+							"minecraft:behavior.float": {
+								"priority": 0
+							},
+							"minecraft:follow_range": {
+								"value": 64,
+								"max": 64
+							},
+							"minecraft:behavior.hurt_by_target": {
+								"priority": 1
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 2,
+								"entity_types": [
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "player"
+										},
+										"max_dist": 28
+									}
+								],
+								"must_see": false
+							},
+							"minecraft:physics": {},
+							"minecraft:pushable": {
+								"is_pushable": true,
+								"is_pushable_by_piston": true
+							},
+							"minecraft:conditional_bandwidth_optimization": {},
+							"minecraft:behavior.ranged_attack": {
+								"priority": 1,
+								"burst_shots": 20,
+								"burst_interval": 0.125,
+								"charge_charged_trigger": 0,
+								"charge_shoot_trigger": 4,
+								"attack_interval_min": 0.25,
+								"attack_interval_max": 0.5,
+								"attack_radius": 64
+							},
+							"minecraft:is_charged": {},
+							"minecraft:boss": {
+								"should_darken_sky": true,
+								"hud_range": 155,
+								"name": "Celestial Being"
+							},
+							"minecraft:persistent": {},
+							"minecraft:on_death": {
+								"event": "ballistic:celestial_boss_death"
+							},
+							"minecraft:scale": {
+								"value": 4
+							}
+						},
+						"events": {
+							"minecraft:entity_spawned": {
+								"run_command": {
+									"command": [
+										"function boss_spawn",
+										"particle ballistic:large_celestial_particle ~ ~ ~"
+									]
+								}
+							},
+							"ballistic:celestial_boss_death": {
+								"run_command": {
+									"command": [
+										"function boss_death",
+										"particle ballistic:large_celestial_particle ~ ~ ~"
+									]
+								}
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "ballistic:celestial_anomaly",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:experience_reward": {
+								"on_death": 40
+							},
+							"minecraft:breathable": {
+								"total_supply": 15,
+								"suffocate_time": 0
+							},
+							"minecraft:fire_immune": true,
+							"minecraft:nameable": {},
+							"minecraft:health": {
+								"value": 150,
+								"max": 150
+							},
+							"minecraft:collision_box": {
+								"width": 1,
+								"height": 1
+							},
+							"minecraft:movement": {
+								"value": 0.05
+							},
+							"minecraft:navigation.float": {
+								"can_path_over_water": true
+							},
+							"minecraft:behavior.float_wander": {
+								"priority": 2,
+								"must_reach": true
+							},
+							"minecraft:can_fly": true,
+							"minecraft:loot": {
+								"table": "loot_tables/entities/celestial_anomaly.json"
+							},
+							"minecraft:shooter": {
+								"def": "minecraft:small_fireball"
+							},
+							"minecraft:type_family": {
+								"family": [
+									"celestial_being",
+									"monster",
+									"mob"
+								]
+							},
+							"minecraft:damage_sensor": {
+								"triggers": {
+									"cause": "fall",
+									"deals_damage": false
+								}
+							},
+							"minecraft:jump.static": {},
+							"minecraft:behavior.float": {
+								"priority": 0
+							},
+							"minecraft:follow_range": {
+								"value": 64,
+								"max": 64
+							},
+							"minecraft:behavior.hurt_by_target": {
+								"priority": 1
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 2,
+								"entity_types": [
+									{
+										"filters": {
+											"test": "is_family",
+											"subject": "other",
+											"value": "player"
+										},
+										"max_dist": 28
+									}
+								],
+								"must_see": false
+							},
+							"minecraft:physics": {},
+							"minecraft:pushable": {
+								"is_pushable": true,
+								"is_pushable_by_piston": true
+							},
+							"minecraft:conditional_bandwidth_optimization": {},
+							"minecraft:behavior.ranged_attack": {
+								"priority": 1,
+								"burst_shots": 20,
+								"burst_interval": 0.125,
+								"charge_charged_trigger": 0,
+								"charge_shoot_trigger": 4,
+								"attack_interval_min": 0.25,
+								"attack_interval_max": 0.5,
+								"attack_radius": 64
+							},
+							"minecraft:is_charged": {},
+							"minecraft:boss": {
+								"should_darken_sky": true,
+								"hud_range": 155,
+								"name": "Celestial Being"
+							},
+							"minecraft:persistent": {},
+							"minecraft:on_death": {
+								"event": "ballistic:celestial_boss_death"
+							},
+							"minecraft:scale": {
+								"value": 4
+							}
+						},
+						"events": {
+							"minecraft:entity_spawned": {
+								"run_command": {
+									"command": [
+										"function boss_spawn",
+										"particle ballistic:large_celestial_particle ~ ~ ~"
+									]
+								}
+							},
+							"ballistic:celestial_boss_death": {
+								"run_command": {
+									"command": [
+										"function boss_death",
+										"particle ballistic:large_celestial_particle ~ ~ ~"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_anomaly",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:experience_reward": {
+									"on_death": 40
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								},
+								"minecraft:fire_immune": true,
+								"minecraft:nameable": {},
+								"minecraft:health": {
+									"value": 150,
+									"max": 150
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:movement": {
+									"value": 0.05
+								},
+								"minecraft:navigation.float": {
+									"can_path_over_water": true
+								},
+								"minecraft:behavior.float_wander": {
+									"priority": 2,
+									"must_reach": true
+								},
+								"minecraft:can_fly": true,
+								"minecraft:loot": {
+									"table": "loot_tables/entities/celestial_anomaly.json"
+								},
+								"minecraft:shooter": {
+									"def": "minecraft:small_fireball"
+								},
+								"minecraft:type_family": {
+									"family": [
+										"celestial_being",
+										"monster",
+										"mob"
+									]
+								},
+								"minecraft:damage_sensor": {
+									"triggers": {
+										"cause": "fall",
+										"deals_damage": false
+									}
+								},
+								"minecraft:jump.static": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:follow_range": {
+									"value": 64,
+									"max": 64
+								},
+								"minecraft:behavior.hurt_by_target": {
+									"priority": 1
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 28
+										}
+									],
+									"must_see": false
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:conditional_bandwidth_optimization": {},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 1,
+									"burst_shots": 20,
+									"burst_interval": 0.125,
+									"charge_charged_trigger": 0,
+									"charge_shoot_trigger": 4,
+									"attack_interval_min": 0.25,
+									"attack_interval_max": 0.5,
+									"attack_radius": 64
+								},
+								"minecraft:is_charged": {},
+								"minecraft:boss": {
+									"should_darken_sky": true,
+									"hud_range": 155,
+									"name": "Celestial Being"
+								},
+								"minecraft:persistent": {},
+								"minecraft:on_death": {
+									"event": "ballistic:celestial_boss_death"
+								},
+								"minecraft:scale": {
+									"value": 4
+								}
+							},
+							"events": {
+								"minecraft:entity_spawned": {
+									"run_command": {
+										"command": [
+											"function boss_spawn",
+											"particle ballistic:large_celestial_particle ~ ~ ~"
+										]
+									}
+								},
+								"ballistic:celestial_boss_death": {
+									"run_command": {
+										"command": [
+											"function boss_death",
+											"particle ballistic:large_celestial_particle ~ ~ ~"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:celestial_anomaly",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_anomaly",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:experience_reward": {
+									"on_death": 40
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								},
+								"minecraft:fire_immune": true,
+								"minecraft:nameable": {},
+								"minecraft:health": {
+									"value": 150,
+									"max": 150
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:movement": {
+									"value": 0.05
+								},
+								"minecraft:navigation.float": {
+									"can_path_over_water": true
+								},
+								"minecraft:behavior.float_wander": {
+									"priority": 2,
+									"must_reach": true
+								},
+								"minecraft:can_fly": true,
+								"minecraft:loot": {
+									"table": "loot_tables/entities/celestial_anomaly.json"
+								},
+								"minecraft:shooter": {
+									"def": "minecraft:small_fireball"
+								},
+								"minecraft:type_family": {
+									"family": [
+										"celestial_being",
+										"monster",
+										"mob"
+									]
+								},
+								"minecraft:damage_sensor": {
+									"triggers": {
+										"cause": "fall",
+										"deals_damage": false
+									}
+								},
+								"minecraft:jump.static": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:follow_range": {
+									"value": 64,
+									"max": 64
+								},
+								"minecraft:behavior.hurt_by_target": {
+									"priority": 1
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 28
+										}
+									],
+									"must_see": false
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:conditional_bandwidth_optimization": {},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 1,
+									"burst_shots": 20,
+									"burst_interval": 0.125,
+									"charge_charged_trigger": 0,
+									"charge_shoot_trigger": 4,
+									"attack_interval_min": 0.25,
+									"attack_interval_max": 0.5,
+									"attack_radius": 64
+								},
+								"minecraft:is_charged": {},
+								"minecraft:boss": {
+									"should_darken_sky": true,
+									"hud_range": 155,
+									"name": "Celestial Being"
+								},
+								"minecraft:persistent": {},
+								"minecraft:on_death": {
+									"event": "ballistic:celestial_boss_death"
+								},
+								"minecraft:scale": {
+									"value": 4
+								}
+							},
+							"events": {
+								"minecraft:entity_spawned": {
+									"run_command": {
+										"command": [
+											"function boss_spawn",
+											"particle ballistic:large_celestial_particle ~ ~ ~"
+										]
+									}
+								},
+								"ballistic:celestial_boss_death": {
+									"run_command": {
+										"command": [
+											"function boss_death",
+											"particle ballistic:large_celestial_particle ~ ~ ~"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:experience_reward",
+								"is_minified": true,
+								"children": {
+									"on_death": 40
+								}
+							},
+							{
+								"key": "minecraft:breathable",
+								"is_minified": true,
+								"children": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:fire_immune"
+							},
+							{
+								"open": {
+									"minecraft:experience_reward": {
+										"on_death": 40
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0
+									},
+									"minecraft:fire_immune": true,
+									"minecraft:nameable": {},
+									"minecraft:health": {
+										"value": 150,
+										"max": 150
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:movement": {
+										"value": 0.05
+									},
+									"minecraft:navigation.float": {
+										"can_path_over_water": true
+									},
+									"minecraft:behavior.float_wander": {
+										"priority": 2,
+										"must_reach": true
+									},
+									"minecraft:can_fly": true,
+									"minecraft:loot": {
+										"table": "loot_tables/entities/celestial_anomaly.json"
+									},
+									"minecraft:shooter": {
+										"def": "minecraft:small_fireball"
+									},
+									"minecraft:type_family": {
+										"family": [
+											"celestial_being",
+											"monster",
+											"mob"
+										]
+									},
+									"minecraft:damage_sensor": {
+										"triggers": {
+											"cause": "fall",
+											"deals_damage": false
+										}
+									},
+									"minecraft:jump.static": {},
+									"minecraft:behavior.float": {
+										"priority": 0
+									},
+									"minecraft:follow_range": {
+										"value": 64,
+										"max": 64
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 1
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												},
+												"max_dist": 28
+											}
+										],
+										"must_see": false
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": true,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:conditional_bandwidth_optimization": {},
+									"minecraft:behavior.ranged_attack": {
+										"priority": 1,
+										"burst_shots": 20,
+										"burst_interval": 0.125,
+										"charge_charged_trigger": 0,
+										"charge_shoot_trigger": 4,
+										"attack_interval_min": 0.25,
+										"attack_interval_max": 0.5,
+										"attack_radius": 64
+									},
+									"minecraft:is_charged": {},
+									"minecraft:boss": {
+										"should_darken_sky": true,
+										"hud_range": 155,
+										"name": "Celestial Being"
+									},
+									"minecraft:persistent": {},
+									"minecraft:on_death": {
+										"event": "ballistic:celestial_boss_death"
+									},
+									"minecraft:scale": {
+										"value": 4
+									}
+								},
+								"key": "minecraft:nameable",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:experience_reward": {
+										"on_death": 40
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0
+									},
+									"minecraft:fire_immune": true,
+									"minecraft:nameable": {},
+									"minecraft:health": {
+										"value": 150,
+										"max": 150
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:movement": {
+										"value": 0.05
+									},
+									"minecraft:navigation.float": {
+										"can_path_over_water": true
+									},
+									"minecraft:behavior.float_wander": {
+										"priority": 2,
+										"must_reach": true
+									},
+									"minecraft:can_fly": true,
+									"minecraft:loot": {
+										"table": "loot_tables/entities/celestial_anomaly.json"
+									},
+									"minecraft:shooter": {
+										"def": "minecraft:small_fireball"
+									},
+									"minecraft:type_family": {
+										"family": [
+											"celestial_being",
+											"monster",
+											"mob"
+										]
+									},
+									"minecraft:damage_sensor": {
+										"triggers": {
+											"cause": "fall",
+											"deals_damage": false
+										}
+									},
+									"minecraft:jump.static": {},
+									"minecraft:behavior.float": {
+										"priority": 0
+									},
+									"minecraft:follow_range": {
+										"value": 64,
+										"max": 64
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 1
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												},
+												"max_dist": 28
+											}
+										],
+										"must_see": false
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": true,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:conditional_bandwidth_optimization": {},
+									"minecraft:behavior.ranged_attack": {
+										"priority": 1,
+										"burst_shots": 20,
+										"burst_interval": 0.125,
+										"charge_charged_trigger": 0,
+										"charge_shoot_trigger": 4,
+										"attack_interval_min": 0.25,
+										"attack_interval_max": 0.5,
+										"attack_radius": 64
+									},
+									"minecraft:is_charged": {},
+									"minecraft:boss": {
+										"should_darken_sky": true,
+										"hud_range": 155,
+										"name": "Celestial Being"
+									},
+									"minecraft:persistent": {},
+									"minecraft:on_death": {
+										"event": "ballistic:celestial_boss_death"
+									},
+									"minecraft:scale": {
+										"value": 4
+									}
+								},
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 150,
+									"max": 150
+								}
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 1,
+									"height": 1
+								}
+							},
+							{
+								"open": {
+									"minecraft:experience_reward": {
+										"on_death": 40
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0
+									},
+									"minecraft:fire_immune": true,
+									"minecraft:nameable": {},
+									"minecraft:health": {
+										"value": 150,
+										"max": 150
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:movement": {
+										"value": 0.05
+									},
+									"minecraft:navigation.float": {
+										"can_path_over_water": true
+									},
+									"minecraft:behavior.float_wander": {
+										"priority": 2,
+										"must_reach": true
+									},
+									"minecraft:can_fly": true,
+									"minecraft:loot": {
+										"table": "loot_tables/entities/celestial_anomaly.json"
+									},
+									"minecraft:shooter": {
+										"def": "minecraft:small_fireball"
+									},
+									"minecraft:type_family": {
+										"family": [
+											"celestial_being",
+											"monster",
+											"mob"
+										]
+									},
+									"minecraft:damage_sensor": {
+										"triggers": {
+											"cause": "fall",
+											"deals_damage": false
+										}
+									},
+									"minecraft:jump.static": {},
+									"minecraft:behavior.float": {
+										"priority": 0
+									},
+									"minecraft:follow_range": {
+										"value": 64,
+										"max": 64
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 1
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												},
+												"max_dist": 28
+											}
+										],
+										"must_see": false
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": true,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:conditional_bandwidth_optimization": {},
+									"minecraft:behavior.ranged_attack": {
+										"priority": 1,
+										"burst_shots": 20,
+										"burst_interval": 0.125,
+										"charge_charged_trigger": 0,
+										"charge_shoot_trigger": 4,
+										"attack_interval_min": 0.25,
+										"attack_interval_max": 0.5,
+										"attack_radius": 64
+									},
+									"minecraft:is_charged": {},
+									"minecraft:boss": {
+										"should_darken_sky": true,
+										"hud_range": 155,
+										"name": "Celestial Being"
+									},
+									"minecraft:persistent": {},
+									"minecraft:on_death": {
+										"event": "ballistic:celestial_boss_death"
+									},
+									"minecraft:scale": {
+										"value": 4
+									}
+								},
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": 0.05
+								}
+							},
+							{
+								"key": "minecraft:navigation.float",
+								"is_minified": true,
+								"children": {
+									"can_path_over_water": true
+								}
+							},
+							{
+								"key": "minecraft:behavior.float_wander",
+								"is_minified": true,
+								"children": {
+									"priority": 2,
+									"must_reach": true
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:can_fly"
+							},
+							{
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/entities/celestial_anomaly.json"
+								}
+							},
+							{
+								"key": "minecraft:shooter",
+								"is_minified": true,
+								"children": {
+									"def": "minecraft:small_fireball"
+								}
+							},
+							{
+								"key": "minecraft:type_family",
+								"children": [
+									{
+										"open": {
+											"family": [
+												"celestial_being",
+												"monster",
+												"mob"
+											]
+										},
+										"key": "family",
+										"is_minified": true,
+										"children": [
+											"celestial_being",
+											"monster",
+											"mob"
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:damage_sensor",
+								"is_minified": true,
+								"children": {
+									"triggers": {
+										"cause": "fall",
+										"deals_damage": false
+									}
+								}
+							},
+							{
+								"key": "minecraft:jump.static",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:behavior.float",
+								"is_minified": true,
+								"children": {
+									"priority": 0
+								}
+							},
+							{
+								"key": "minecraft:follow_range",
+								"is_minified": true,
+								"children": {
+									"value": 64,
+									"max": 64
+								}
+							},
+							{
+								"key": "minecraft:behavior.hurt_by_target",
+								"is_minified": true,
+								"children": {
+									"priority": 1
+								}
+							},
+							{
+								"key": "minecraft:behavior.nearest_attackable_target",
+								"children": [
+									{
+										"data": "2",
+										"key": "priority"
+									},
+									{
+										"open": {
+											"priority": 2,
+											"entity_types": [
+												{
+													"filters": {
+														"test": "is_family",
+														"subject": "other",
+														"value": "player"
+													},
+													"max_dist": 28
+												}
+											],
+											"must_see": false
+										},
+										"key": "entity_types",
+										"children": [
+											{
+												"open": [
+													{
+														"filters": {
+															"test": "is_family",
+															"subject": "other",
+															"value": "player"
+														},
+														"max_dist": 28
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"filters": {
+														"test": "is_family",
+														"subject": "other",
+														"value": "player"
+													},
+													"max_dist": 28
+												}
+											}
+										]
+									},
+									{
+										"open": {
+											"priority": 2,
+											"entity_types": [
+												{
+													"filters": {
+														"test": "is_family",
+														"subject": "other",
+														"value": "player"
+													},
+													"max_dist": 28
+												}
+											],
+											"must_see": false
+										},
+										"data": "false",
+										"key": "must_see"
+									}
+								]
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:pushable",
+								"is_minified": true,
+								"children": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								}
+							},
+							{
+								"key": "minecraft:conditional_bandwidth_optimization",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:experience_reward": {
+										"on_death": 40
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0
+									},
+									"minecraft:fire_immune": true,
+									"minecraft:nameable": {},
+									"minecraft:health": {
+										"value": 150,
+										"max": 150
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:movement": {
+										"value": 0.05
+									},
+									"minecraft:navigation.float": {
+										"can_path_over_water": true
+									},
+									"minecraft:behavior.float_wander": {
+										"priority": 2,
+										"must_reach": true
+									},
+									"minecraft:can_fly": true,
+									"minecraft:loot": {
+										"table": "loot_tables/entities/celestial_anomaly.json"
+									},
+									"minecraft:shooter": {
+										"def": "minecraft:small_fireball"
+									},
+									"minecraft:type_family": {
+										"family": [
+											"celestial_being",
+											"monster",
+											"mob"
+										]
+									},
+									"minecraft:damage_sensor": {
+										"triggers": {
+											"cause": "fall",
+											"deals_damage": false
+										}
+									},
+									"minecraft:jump.static": {},
+									"minecraft:behavior.float": {
+										"priority": 0
+									},
+									"minecraft:follow_range": {
+										"value": 64,
+										"max": 64
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 1
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"entity_types": [
+											{
+												"filters": {
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												},
+												"max_dist": 28
+											}
+										],
+										"must_see": false
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": true,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:conditional_bandwidth_optimization": {},
+									"minecraft:behavior.ranged_attack": {
+										"priority": 1,
+										"burst_shots": 20,
+										"burst_interval": 0.125,
+										"charge_charged_trigger": 0,
+										"charge_shoot_trigger": 4,
+										"attack_interval_min": 0.25,
+										"attack_interval_max": 0.5,
+										"attack_radius": 64
+									},
+									"minecraft:is_charged": {},
+									"minecraft:boss": {
+										"should_darken_sky": true,
+										"hud_range": 155,
+										"name": "Celestial Being"
+									},
+									"minecraft:persistent": {},
+									"minecraft:on_death": {
+										"event": "ballistic:celestial_boss_death"
+									},
+									"minecraft:scale": {
+										"value": 4
+									}
+								},
+								"key": "minecraft:behavior.ranged_attack",
+								"is_minified": true,
+								"children": {
+									"priority": 1,
+									"burst_shots": 20,
+									"burst_interval": 0.125,
+									"charge_charged_trigger": 0,
+									"charge_shoot_trigger": 4,
+									"attack_interval_min": 0.25,
+									"attack_interval_max": 0.5,
+									"attack_radius": 64
+								}
+							},
+							{
+								"key": "minecraft:is_charged",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:boss",
+								"is_minified": true,
+								"children": {
+									"should_darken_sky": true,
+									"hud_range": 155,
+									"name": "Celestial Being"
+								}
+							},
+							{
+								"key": "minecraft:persistent",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:on_death",
+								"is_minified": true,
+								"children": {
+									"event": "ballistic:celestial_boss_death"
+								}
+							},
+							{
+								"key": "minecraft:scale",
+								"is_minified": true,
+								"children": {
+									"value": 4
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_anomaly",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:experience_reward": {
+									"on_death": 40
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0
+								},
+								"minecraft:fire_immune": true,
+								"minecraft:nameable": {},
+								"minecraft:health": {
+									"value": 150,
+									"max": 150
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:movement": {
+									"value": 0.05
+								},
+								"minecraft:navigation.float": {
+									"can_path_over_water": true
+								},
+								"minecraft:behavior.float_wander": {
+									"priority": 2,
+									"must_reach": true
+								},
+								"minecraft:can_fly": true,
+								"minecraft:loot": {
+									"table": "loot_tables/entities/celestial_anomaly.json"
+								},
+								"minecraft:shooter": {
+									"def": "minecraft:small_fireball"
+								},
+								"minecraft:type_family": {
+									"family": [
+										"celestial_being",
+										"monster",
+										"mob"
+									]
+								},
+								"minecraft:damage_sensor": {
+									"triggers": {
+										"cause": "fall",
+										"deals_damage": false
+									}
+								},
+								"minecraft:jump.static": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:follow_range": {
+									"value": 64,
+									"max": 64
+								},
+								"minecraft:behavior.hurt_by_target": {
+									"priority": 1
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"entity_types": [
+										{
+											"filters": {
+												"test": "is_family",
+												"subject": "other",
+												"value": "player"
+											},
+											"max_dist": 28
+										}
+									],
+									"must_see": false
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:conditional_bandwidth_optimization": {},
+								"minecraft:behavior.ranged_attack": {
+									"priority": 1,
+									"burst_shots": 20,
+									"burst_interval": 0.125,
+									"charge_charged_trigger": 0,
+									"charge_shoot_trigger": 4,
+									"attack_interval_min": 0.25,
+									"attack_interval_max": 0.5,
+									"attack_radius": 64
+								},
+								"minecraft:is_charged": {},
+								"minecraft:boss": {
+									"should_darken_sky": true,
+									"hud_range": 155,
+									"name": "Celestial Being"
+								},
+								"minecraft:persistent": {},
+								"minecraft:on_death": {
+									"event": "ballistic:celestial_boss_death"
+								},
+								"minecraft:scale": {
+									"value": 4
+								}
+							},
+							"events": {
+								"minecraft:entity_spawned": {
+									"run_command": {
+										"command": [
+											"function boss_spawn",
+											"particle ballistic:large_celestial_particle ~ ~ ~"
+										]
+									}
+								},
+								"ballistic:celestial_boss_death": {
+									"run_command": {
+										"command": [
+											"function boss_death",
+											"particle ballistic:large_celestial_particle ~ ~ ~"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "minecraft:entity_spawned",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"function boss_spawn",
+													"particle ballistic:large_celestial_particle ~ ~ ~"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"function boss_spawn",
+														"particle ballistic:large_celestial_particle ~ ~ ~"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"function boss_spawn",
+													"particle ballistic:large_celestial_particle ~ ~ ~"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "ballistic:celestial_boss_death",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"function boss_death",
+													"particle ballistic:large_celestial_particle ~ ~ ~"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"function boss_death",
+														"particle ballistic:large_celestial_particle ~ ~ ~"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"function boss_death",
+													"particle ballistic:large_celestial_particle ~ ~ ~"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

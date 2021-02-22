@@ -1,0 +1,604 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\items\\celestial_leggings.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "41c19882_22c8_44fc_b453_354dcfededa0",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ballistic:celestial_leggings",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:enchantable": {
+								"value": 25,
+								"slot": "armor_legs"
+							},
+							"minecraft:durability": {
+								"max_damage": 400,
+								"damage_chance": {
+									"min": 60,
+									"max": 100
+								}
+							},
+							"minecraft:mining_speed": 8,
+							"minecraft:damage": 3,
+							"minecraft:armor": {
+								"protection": 6
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.legs"
+							},
+							"minecraft:knockback_resistance": {
+								"protection": 1
+							},
+							"minecraft:icon": {
+								"texture": "celestial_leggings"
+							},
+							"minecraft:display_name": {
+								"value": "Celestial Leggings"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.leggings"
+							},
+							"minecraft:render_offsets": "leggings",
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"ballistic:celestial_dust"
+										],
+										"repair_amount": 200
+									}
+								]
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ballistic:celestial_leggings",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:enchantable": {
+								"value": 25,
+								"slot": "armor_legs"
+							},
+							"minecraft:durability": {
+								"max_damage": 400,
+								"damage_chance": {
+									"min": 60,
+									"max": 100
+								}
+							},
+							"minecraft:mining_speed": 8,
+							"minecraft:damage": 3,
+							"minecraft:armor": {
+								"protection": 6
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.legs"
+							},
+							"minecraft:knockback_resistance": {
+								"protection": 1
+							},
+							"minecraft:icon": {
+								"texture": "celestial_leggings"
+							},
+							"minecraft:display_name": {
+								"value": "Celestial Leggings"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.leggings"
+							},
+							"minecraft:render_offsets": "leggings",
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"ballistic:celestial_dust"
+										],
+										"repair_amount": 200
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_leggings",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:enchantable": {
+									"value": 25,
+									"slot": "armor_legs"
+								},
+								"minecraft:durability": {
+									"max_damage": 400,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								},
+								"minecraft:mining_speed": 8,
+								"minecraft:damage": 3,
+								"minecraft:armor": {
+									"protection": 6
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.legs"
+								},
+								"minecraft:knockback_resistance": {
+									"protection": 1
+								},
+								"minecraft:icon": {
+									"texture": "celestial_leggings"
+								},
+								"minecraft:display_name": {
+									"value": "Celestial Leggings"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.leggings"
+								},
+								"minecraft:render_offsets": "leggings",
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"ballistic:celestial_dust"
+											],
+											"repair_amount": 200
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:celestial_leggings",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_leggings",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:enchantable": {
+									"value": 25,
+									"slot": "armor_legs"
+								},
+								"minecraft:durability": {
+									"max_damage": 400,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								},
+								"minecraft:mining_speed": 8,
+								"minecraft:damage": 3,
+								"minecraft:armor": {
+									"protection": 6
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.legs"
+								},
+								"minecraft:knockback_resistance": {
+									"protection": 1
+								},
+								"minecraft:icon": {
+									"texture": "celestial_leggings"
+								},
+								"minecraft:display_name": {
+									"value": "Celestial Leggings"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.leggings"
+								},
+								"minecraft:render_offsets": "leggings",
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"ballistic:celestial_dust"
+											],
+											"repair_amount": 200
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "armor_legs"
+									},
+									"minecraft:durability": {
+										"max_damage": 400,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 8,
+									"minecraft:damage": 3,
+									"minecraft:armor": {
+										"protection": 6
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.legs"
+									},
+									"minecraft:knockback_resistance": {
+										"protection": 1
+									},
+									"minecraft:icon": {
+										"texture": "celestial_leggings"
+									},
+									"minecraft:display_name": {
+										"value": "Celestial Leggings"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.leggings"
+									},
+									"minecraft:render_offsets": "leggings",
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"ballistic:celestial_dust"
+												],
+												"repair_amount": 200
+											}
+										]
+									}
+								},
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 25,
+									"slot": "armor_legs"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "armor_legs"
+									},
+									"minecraft:durability": {
+										"max_damage": 400,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 8,
+									"minecraft:damage": 3,
+									"minecraft:armor": {
+										"protection": 6
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.legs"
+									},
+									"minecraft:knockback_resistance": {
+										"protection": 1
+									},
+									"minecraft:icon": {
+										"texture": "celestial_leggings"
+									},
+									"minecraft:display_name": {
+										"value": "Celestial Leggings"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.leggings"
+									},
+									"minecraft:render_offsets": "leggings",
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"ballistic:celestial_dust"
+												],
+												"repair_amount": 200
+											}
+										]
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_damage": 400,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								}
+							},
+							{
+								"data": "8",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"data": "3",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:armor",
+								"is_minified": true,
+								"children": {
+									"protection": 6
+								}
+							},
+							{
+								"key": "minecraft:wearable",
+								"is_minified": true,
+								"children": {
+									"slot": "slot.armor.legs"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "armor_legs"
+									},
+									"minecraft:durability": {
+										"max_damage": 400,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 8,
+									"minecraft:damage": 3,
+									"minecraft:armor": {
+										"protection": 6
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.legs"
+									},
+									"minecraft:knockback_resistance": {
+										"protection": 1
+									},
+									"minecraft:icon": {
+										"texture": "celestial_leggings"
+									},
+									"minecraft:display_name": {
+										"value": "Celestial Leggings"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.leggings"
+									},
+									"minecraft:render_offsets": "leggings",
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"ballistic:celestial_dust"
+												],
+												"repair_amount": 200
+											}
+										]
+									}
+								},
+								"key": "minecraft:knockback_resistance",
+								"is_minified": true,
+								"children": {
+									"protection": 1
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "armor_legs"
+									},
+									"minecraft:durability": {
+										"max_damage": 400,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 8,
+									"minecraft:damage": 3,
+									"minecraft:armor": {
+										"protection": 6
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.legs"
+									},
+									"minecraft:knockback_resistance": {
+										"protection": 1
+									},
+									"minecraft:icon": {
+										"texture": "celestial_leggings"
+									},
+									"minecraft:display_name": {
+										"value": "Celestial Leggings"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.leggings"
+									},
+									"minecraft:render_offsets": "leggings",
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"ballistic:celestial_dust"
+												],
+												"repair_amount": 200
+											}
+										]
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "celestial_leggings"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "armor_legs"
+									},
+									"minecraft:durability": {
+										"max_damage": 400,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 8,
+									"minecraft:damage": 3,
+									"minecraft:armor": {
+										"protection": 6
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.legs"
+									},
+									"minecraft:knockback_resistance": {
+										"protection": 1
+									},
+									"minecraft:icon": {
+										"texture": "celestial_leggings"
+									},
+									"minecraft:display_name": {
+										"value": "Celestial Leggings"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.leggings"
+									},
+									"minecraft:render_offsets": "leggings",
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"ballistic:celestial_dust"
+												],
+												"repair_amount": 200
+											}
+										]
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Celestial Leggings"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "armor_legs"
+									},
+									"minecraft:durability": {
+										"max_damage": 400,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 8,
+									"minecraft:damage": 3,
+									"minecraft:armor": {
+										"protection": 6
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.legs"
+									},
+									"minecraft:knockback_resistance": {
+										"protection": 1
+									},
+									"minecraft:icon": {
+										"texture": "celestial_leggings"
+									},
+									"minecraft:display_name": {
+										"value": "Celestial Leggings"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.leggings"
+									},
+									"minecraft:render_offsets": "leggings",
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"ballistic:celestial_dust"
+												],
+												"repair_amount": 200
+											}
+										]
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.leggings"
+								}
+							},
+							{
+								"data": "leggings",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"key": "minecraft:repairable",
+								"is_minified": true,
+								"children": {
+									"repair_items": [
+										{
+											"items": [
+												"ballistic:celestial_dust"
+											],
+											"repair_amount": 200
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

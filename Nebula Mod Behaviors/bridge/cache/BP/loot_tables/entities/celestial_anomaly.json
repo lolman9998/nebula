@@ -1,0 +1,615 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\loot_tables\\entities\\celestial_anomaly.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "8fe4a62e_b14f_4b84_882d_f64701becc4c",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "ballistic:celestial_dust",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 12,
+												"max": 24
+											}
+										},
+										{
+											"function": "looting_enchant",
+											"count": {
+												"min": 24,
+												"max": 32
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "ballistic:adrenaline_potion",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 0,
+												"max": 1
+											}
+										}
+									]
+								}
+							],
+							"conditions": [
+								{
+									"condition": "killed_by_player"
+								},
+								{
+									"condition": "random_chance",
+									"chance": 0.1,
+									"looting_multiplier": 0.2
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "ballistic:celestial_dust",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 12,
+													"max": 24
+												}
+											},
+											{
+												"function": "looting_enchant",
+												"count": {
+													"min": 24,
+													"max": 32
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "ballistic:adrenaline_potion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 0,
+													"max": 1
+												}
+											}
+										]
+									}
+								],
+								"conditions": [
+									{
+										"condition": "killed_by_player"
+									},
+									{
+										"condition": "random_chance",
+										"chance": 0.1,
+										"looting_multiplier": 0.2
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "ballistic:celestial_dust",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 12,
+														"max": 24
+													}
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 24,
+														"max": 32
+													}
+												}
+											]
+										}
+									]
+								},
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "ballistic:celestial_dust",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 12,
+														"max": 24
+													}
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 24,
+														"max": 32
+													}
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "ballistic:celestial_dust",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 12,
+															"max": 24
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 24,
+															"max": 32
+														}
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"open": {
+													"type": "item",
+													"name": "ballistic:celestial_dust",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 12,
+																"max": 24
+															}
+														},
+														{
+															"function": "looting_enchant",
+															"count": {
+																"min": 24,
+																"max": 32
+															}
+														}
+													]
+												},
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "ballistic:celestial_dust",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 12,
+																"max": 24
+															}
+														},
+														{
+															"function": "looting_enchant",
+															"count": {
+																"min": 24,
+																"max": 32
+															}
+														}
+													]
+												},
+												"data": "ballistic:celestial_dust",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "ballistic:celestial_dust",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 12,
+																"max": 24
+															}
+														},
+														{
+															"function": "looting_enchant",
+															"count": {
+																"min": 24,
+																"max": 32
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 12,
+																	"max": 24
+																}
+															},
+															{
+																"function": "looting_enchant",
+																"count": {
+																	"min": 24,
+																	"max": 32
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 12,
+																		"max": 24
+																	}
+																},
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 12,
+																		"max": 24
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 12,
+																	"max": 24
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 12,
+																	"max": 24
+																}
+															},
+															{
+																"function": "looting_enchant",
+																"count": {
+																	"min": 24,
+																	"max": 32
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "looting_enchant",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "looting_enchant",
+																	"count": {
+																		"min": 24,
+																		"max": 32
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 24,
+																	"max": 32
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "ballistic:celestial_dust",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 12,
+													"max": 24
+												}
+											},
+											{
+												"function": "looting_enchant",
+												"count": {
+													"min": 24,
+													"max": 32
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "ballistic:adrenaline_potion",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 0,
+													"max": 1
+												}
+											}
+										]
+									}
+								],
+								"conditions": [
+									{
+										"condition": "killed_by_player"
+									},
+									{
+										"condition": "random_chance",
+										"chance": 0.1,
+										"looting_multiplier": 0.2
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "ballistic:adrenaline_potion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										}
+									],
+									"conditions": [
+										{
+											"condition": "killed_by_player"
+										},
+										{
+											"condition": "random_chance",
+											"chance": 0.1,
+											"looting_multiplier": 0.2
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "ballistic:adrenaline_potion",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "ballistic:adrenaline_potion",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "ballistic:adrenaline_potion",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 0,
+																"max": 1
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 0,
+																	"max": 1
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 0,
+																		"max": 1
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 0,
+																	"max": 1
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "ballistic:adrenaline_potion",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										}
+									],
+									"conditions": [
+										{
+											"condition": "killed_by_player"
+										},
+										{
+											"condition": "random_chance",
+											"chance": 0.1,
+											"looting_multiplier": 0.2
+										}
+									]
+								},
+								"key": "conditions",
+								"children": [
+									{
+										"open": [
+											{
+												"condition": "killed_by_player"
+											},
+											{
+												"condition": "random_chance",
+												"chance": 0.1,
+												"looting_multiplier": 0.2
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"condition": "killed_by_player"
+										}
+									},
+									{
+										"open": [
+											{
+												"condition": "killed_by_player"
+											},
+											{
+												"condition": "random_chance",
+												"chance": 0.1,
+												"looting_multiplier": 0.2
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"condition": "random_chance",
+											"chance": 0.1,
+											"looting_multiplier": 0.2
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

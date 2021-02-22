@@ -1,0 +1,32 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ballistic:celestial_dust_to_quartz"
+		},
+		"tags": [
+			"transformation_table"
+		],
+		"pattern": [
+			"CCC",
+			"C#C",
+			"CCC"
+		],
+		"key": {
+			"C": {
+				"item": "ballistic:celestial_dust"
+			},
+			"#": {
+				"item": "minecraft:dye",
+				"data": 4
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:quartz",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,73 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\blocks\\runic_auqa_dungeon_brick.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "cc5016f3_e8fa_40c4_8839_6e11f3ba628a",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ballistic:runic_auqa_dungeon_brick",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 1,
+							"minecraft:map_color": "#0062FF",
+							"minecraft:explosion_resistance": 1
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:runic_auqa_dungeon_brick",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:map_color": "#0062FF",
+								"minecraft:explosion_resistance": 1
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:runic_auqa_dungeon_brick",
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:runic_auqa_dungeon_brick",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:map_color": "#0062FF",
+								"minecraft:explosion_resistance": 1
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1,
+							"minecraft:map_color": "#0062FF",
+							"minecraft:explosion_resistance": 1
+						}
+					}
+				]
+			}
+		]
+	}
+}

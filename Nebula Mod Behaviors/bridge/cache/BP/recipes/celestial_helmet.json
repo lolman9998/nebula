@@ -1,0 +1,218 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\recipes\\celestial_helmet.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "6db9909e_a07e_40b4_8d74_1838e5611b01",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ballistic:celestial_helmet"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"CCC",
+							"C C"
+						],
+						"key": {
+							"C": {
+								"item": "ballistic:celestial_dust"
+							}
+						},
+						"result": [
+							{
+								"item": "ballistic:celestial_helmet",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_helmet"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"C C"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_helmet",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:celestial_helmet"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_helmet"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"C C"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_helmet",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_helmet"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"C C"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_helmet",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"CCC",
+							"C C"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_helmet"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"C C"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_helmet",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"C": {
+										"item": "ballistic:celestial_dust"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "ballistic:celestial_dust"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_helmet"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"CCC",
+								"C C"
+							],
+							"key": {
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_helmet",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "ballistic:celestial_helmet",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "ballistic:celestial_helmet",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

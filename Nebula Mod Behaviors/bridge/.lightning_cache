@@ -1,0 +1,489 @@
+{
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/celestial_anomaly.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"ballistic:celestial_boss_death"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"ballistic:celestial_anomaly"
+			],
+			"animation_references": [],
+			"families": [
+				"celestial_being",
+				"monster",
+				"mob"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/mod_guide_book_entity.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"ballistic:mod_guide_book_entity"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_components": [],
+			"custom_commands": []
+		}
+	},
+	"item": {
+		"BP/items/celestial_clam.json": {
+			"identifiers": [
+				"ballistic:celestial_clam"
+			],
+			"custom_commands": []
+		},
+		"BP/items/celestial_dust.json": {
+			"identifiers": [
+				"ballistic:celestial_dust"
+			],
+			"custom_commands": []
+		},
+		"BP/items/celestial_sword.json": {
+			"identifiers": [
+				"ballistic:celestial_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/celestial_helmet.json": {
+			"identifiers": [
+				"ballistic:celestial_helmet"
+			],
+			"custom_commands": []
+		},
+		"BP/items/celestial_chestplate.json": {
+			"identifiers": [
+				"ballistic:celestial_chestplate"
+			],
+			"custom_commands": []
+		},
+		"BP/items/celestial_leggings.json": {
+			"identifiers": [
+				"ballistic:celestial_leggings"
+			],
+			"custom_commands": []
+		},
+		"BP/items/celestial_boots.json": {
+			"identifiers": [
+				"ballistic:celestial_boots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/adrenaline_potion.json": {
+			"identifiers": [
+				"ballistic:adrenaline_potion"
+			],
+			"custom_commands": []
+		},
+		"BP/items/emerald_sword.json": {
+			"identifiers": [
+				"ballistic:emerald_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/blizzard_sword.json": {
+			"identifiers": [
+				"ballistic:blizzard_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/judgement_sword.json": {
+			"identifiers": [
+				"ballistic:judgement_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/thermal_sword.json": {
+			"identifiers": [
+				"ballistic:thermal_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/frost_charm.json": {
+			"identifiers": [
+				"ballistic:frost_charm"
+			],
+			"custom_commands": []
+		},
+		"BP/items/wither_bone.json": {
+			"identifiers": [
+				"ballistic:wither_bone"
+			],
+			"custom_commands": []
+		},
+		"BP/items/mod_guide_book.json": {
+			"identifiers": [
+				"ballistic:mod_guide_book"
+			],
+			"custom_commands": []
+		}
+	},
+	"block": {
+		"BP/blocks/combat_table.json": {
+			"identifiers": [
+				"ballistic:combat_table"
+			],
+			"events": [],
+			"recipe_tags": [
+				"combat_table"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/lantern_block.json": {
+			"identifiers": [
+				"ballistic:lantern_block"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/auqa_dungeon_brick.json": {
+			"identifiers": [
+				"ballistic:auqa_dungeon_brick"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/runic_auqa_dungeon_brick.json": {
+			"identifiers": [
+				"ballistic:runic_auqa_dungeon_brick"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/transformation_table.json": {
+			"identifiers": [
+				"ballistic:transformation_table"
+			],
+			"events": [
+				"ballistic:transformation_table_particle"
+			],
+			"recipe_tags": [
+				"transformation_table",
+				"crafting_table"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"recipe": {
+		"BP/recipes/elytra.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/celestial_clam.json": {
+			"tags": [
+				"combat_table"
+			]
+		},
+		"BP/recipes/nautilus_shell.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/celestial_sword.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/celestial_helmet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/celestial_chestplate.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/celestial_leggings.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/celestial_boots.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chainmail_helmet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chainmail_chestplate.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chainmail_leggings.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chainmail_boots.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/emerald_sword.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/judgement_sword.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/thermal_sword.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/transformation_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/celestial_dust_to_diamond.json": {
+			"tags": [
+				"transformation_table"
+			]
+		},
+		"BP/recipes/celestial_dust_to_emerald.json": {
+			"tags": [
+				"transformation_table"
+			]
+		},
+		"BP/recipes/celestial_dust_to_quartz.json": {
+			"tags": [
+				"transformation_table"
+			]
+		},
+		"BP/recipes/celestial_dust_to_lapis.json": {
+			"tags": [
+				"transformation_table"
+			]
+		},
+		"BP/recipes/celestial_dust_to_coal.json": {
+			"tags": [
+				"transformation_table"
+			]
+		},
+		"BP/recipes/celestial_dust_to_redstone.json": {
+			"tags": [
+				"transformation_table"
+			]
+		},
+		"BP/recipes/celestial_dust_to_gold.json": {
+			"tags": [
+				"transformation_table"
+			]
+		},
+		"BP/recipes/celestial_dust_to_iron.json": {
+			"tags": [
+				"transformation_table"
+			]
+		},
+		"BP/recipes/wither_skeleton_skull.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/combat_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/mod_guide_book.json": {
+			"tags": [
+				"crafting_table"
+			]
+		}
+	},
+	"function": {
+		"628503c8_f32f_41f6_a5ab_3be307a6ab22": {},
+		"886fae0d_9068_4752_ac17_4bbcb55a19ec": {},
+		"08ad2e2d_0676_48b5_a91f_16eaaaab5dd6": {},
+		"5415b319_64fc_4db1_87d9_39b295142c30": {},
+		"a05adb1f_f44d_43cc_a811_17cd26605750": {},
+		"3f2844ea_9818_4120_b0bd_2fbfba4c7afb": {},
+		"b8f21b8e_6837_4bdd_bab8_7dc91d3f3474": {},
+		"9821751d_fad2_4e87_a6e1_9046a9d1182b": {},
+		"BP/functions/boss.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/boss_spawn.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/boss_death.mcfunction": {
+			"custom_commands": []
+		},
+		"848a7c12_9443_4dba_a538_2d12ce1073ff": {},
+		"0eca27c4_f9a0_4414_8cec_60b567760a54": {},
+		"8e86d690_3dba_4954_9452_aa5f8450a1d2": {},
+		"460017b4_f210_4660_bb54_3af0922b058b": {},
+		"9490fb09_d21f_4d68_a5ba_a22d76b4775c": {},
+		"5b0e0ab4_a58d_4ad5_a2a3_aaf65a6e8319": {},
+		"4d817ad2_2e65_432b_8613_7bb17ed967c1": {},
+		"884f16f5_25e8_476f_8cfe_1d6b9a94ed68": {},
+		"1da12747_9579_45ec_8c3d_c20454c42e35": {},
+		"b78cec28_1644_47d8_8057_109b5a02465a": {},
+		"85df193d_106c_4ad8_905d_223825edd251": {},
+		"aaea5dd9_a9e1_4cd9_8fc9_c650ef98d647": {}
+	},
+	"attachable": {
+		"RP/ Textures/attachables/celestial_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/ Textures/attachables/celestial_chestplate.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/ Textures/attachables/celestial_leggings.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/ Textures/attachables/celestial_boots.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		}
+	},
+	"particle": {
+		"RP/ Textures/particles/celestial_plus.json": {
+			"ids": [
+				"ballistic:celestial_plus"
+			]
+		},
+		"RP/ Textures/particles/large_celestial_plus.json": {
+			"ids": [
+				"ballistic:large_celestial_plus"
+			]
+		}
+	},
+	"render_controller": {
+		"RP/ Textures/render_controllers/controller.render.entity.json": {
+			"ids": [
+				"controller.render.entity"
+			]
+		}
+	},
+	"client_entity": {
+		"RP/ Textures/entity/celestial_anomaly.json": {
+			"identifiers": [
+				"ballistic:celestial_anomaly"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"spin",
+				"rotate_side",
+				"rotate_top"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default",
+				"charged"
+			],
+			"material_references": [
+				"default",
+				"charged"
+			],
+			"geometry_references": [
+				"default",
+				"charged"
+			],
+			"geometry_identifiers": [
+				"default",
+				"charged"
+			]
+		}
+	},
+	"feature": {},
+	"feature_rule": {},
+	"rp_animation_controller": {
+		"RP/ Textures/animation_controllers/celestial_anomaly.animation_controllers.json": {
+			"ids": [
+				"controller.animation.celestial_anomaly"
+			]
+		}
+	},
+	"rp_animation": {
+		"RP/ Textures/animations/celestial_anomaly.rotation_side.animation.json": {
+			"ids": [
+				"animation.celestial_anomaly.rotate_side"
+			]
+		},
+		"RP/ Textures/animations/celestial_anomaly.rotation_top.animation.json": {
+			"ids": [
+				"animation.celestial_anomaly.rotate_top"
+			]
+		}
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\entities\\mod_guide_book_entity.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "85df193d_106c_4ad8_905d_223825edd251",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "ballistic:mod_guide_book_entity",
+							"is_summonable": true
+						},
+						"components": {
+							"minecraft:loot": {
+								"table": "loot_tables/books/mod_guide_book.json"
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:mod_guide_book_entity",
+								"is_summonable": true
+							},
+							"components": {
+								"minecraft:loot": {
+									"table": "loot_tables/books/mod_guide_book.json"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:mod_guide_book_entity",
+							"is_summonable": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:mod_guide_book_entity",
+								"is_summonable": true
+							},
+							"components": {
+								"minecraft:loot": {
+									"table": "loot_tables/books/mod_guide_book.json"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:loot": {
+										"table": "loot_tables/books/mod_guide_book.json"
+									}
+								},
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/books/mod_guide_book.json"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

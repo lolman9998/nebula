@@ -1,0 +1,112 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nebula Mod Textures\\animation_controllers\\celestial_anomaly.animation_controllers.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 1,
+	"file_uuid": "6c398d21_cede_40f6_b96a_45d917c5826e",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.celestial_anomaly": {
+							"initial_state": "default",
+							"states": {
+								"spinning": {
+									"animations": [
+										"rotate_side",
+										"rotate_top"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.celestial_anomaly": {
+								"initial_state": "default",
+								"states": {
+									"spinning": {
+										"animations": [
+											"rotate_side",
+											"rotate_top"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.celestial_anomaly",
+						"children": [
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"spinning": {
+											"animations": [
+												"rotate_side",
+												"rotate_top"
+											]
+										}
+									}
+								},
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"spinning": {
+											"animations": [
+												"rotate_side",
+												"rotate_top"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"spinning": {
+												"animations": [
+													"rotate_side",
+													"rotate_top"
+												]
+											}
+										},
+										"key": "spinning",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														"rotate_side",
+														"rotate_top"
+													]
+												},
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"rotate_side",
+													"rotate_top"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

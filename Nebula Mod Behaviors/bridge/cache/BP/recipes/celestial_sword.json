@@ -1,0 +1,261 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod/recipes/celestial_sword.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "e9ddc375_d435_4353_a74a_97b8cfd32030",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ballistic:celestial_sword"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"N",
+							"N",
+							"s"
+						],
+						"key": {
+							"N": {
+								"item": "ballistic:celestial_dust"
+							},
+							"s": {
+								"item": "minecraft:stick"
+							}
+						},
+						"result": [
+							{
+								"item": "ballistic:celestial_sword",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_sword"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"N",
+								"N",
+								"s"
+							],
+							"key": {
+								"N": {
+									"item": "ballistic:celestial_dust"
+								},
+								"s": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_sword",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:celestial_sword"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_sword"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"N",
+								"N",
+								"s"
+							],
+							"key": {
+								"N": {
+									"item": "ballistic:celestial_dust"
+								},
+								"s": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_sword",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_sword"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"N",
+								"N",
+								"s"
+							],
+							"key": {
+								"N": {
+									"item": "ballistic:celestial_dust"
+								},
+								"s": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_sword",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"N",
+							"N",
+							"s"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_sword"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"N",
+								"N",
+								"s"
+							],
+							"key": {
+								"N": {
+									"item": "ballistic:celestial_dust"
+								},
+								"s": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_sword",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"N": {
+										"item": "ballistic:celestial_dust"
+									},
+									"s": {
+										"item": "minecraft:stick"
+									}
+								},
+								"key": "N",
+								"is_minified": true,
+								"children": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							{
+								"open": {
+									"N": {
+										"item": "ballistic:celestial_dust"
+									},
+									"s": {
+										"item": "minecraft:stick"
+									}
+								},
+								"key": "s",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stick"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_sword"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"N",
+								"N",
+								"s"
+							],
+							"key": {
+								"N": {
+									"item": "ballistic:celestial_dust"
+								},
+								"s": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ballistic:celestial_sword",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "ballistic:celestial_sword",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "ballistic:celestial_sword",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

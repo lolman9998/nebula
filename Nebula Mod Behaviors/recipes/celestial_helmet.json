@@ -1,0 +1,27 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ballistic:celestial_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"CCC",
+			"C C"
+		],
+		"key": {
+			"C": {
+				"item": "ballistic:celestial_dust"
+			}
+		},
+		"result": [
+			{
+				"item": "ballistic:celestial_helmet",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,39 @@
+//bridge-file-version: #55
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ballistic:celestial_anomaly",
+			"min_engine_version": "1.10.0",
+			"materials": {
+				"default": "creeper",
+				"charged": "charged_creeper"
+			},
+			"textures": {
+				"default": "textures/entity/celestial_anomaly/celestial_anomaly",
+				"charged": "textures/entity/celestial_anomaly/celestial_anomaly_charged"
+			},
+			"geometry": {
+				"default": "geometry.celestial_anomaly",
+				"charged": "geometry.celestial_anomaly_charged"
+			},
+			"render_controllers": [
+				"controller.render.entity",
+				"controller.render.creeper_armor"
+			],
+			"spawn_egg": {
+				"texture": "spawn_celestial_anomaly"
+			},
+			"scripts": {
+				"animate": [
+					"spin"
+				]
+			},
+			"animations": {
+				"spin": "controller.animation.celestial_anomaly",
+				"rotate_side": "animation.celestial_anomaly.rotate_side",
+				"rotate_top": "animation.celestial_anomaly.rotate_top"
+			}
+		}
+	}
+}

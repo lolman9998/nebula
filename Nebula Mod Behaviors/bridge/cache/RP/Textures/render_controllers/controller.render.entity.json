@@ -1,0 +1,103 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Nebula Mod Textures\\render_controllers\\controller.render.entity.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "1d3a4227_3724_4ac4_a815_9c1547507818",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.entity": {
+							"geometry": "Geometry.default",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"textures": [
+								"Texture.default"
+							]
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.entity": {
+								"geometry": "Geometry.default",
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								],
+								"textures": [
+									"Texture.default"
+								]
+							}
+						},
+						"key": "controller.render.entity",
+						"children": [
+							{
+								"data": "Geometry.default",
+								"key": "geometry"
+							},
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Texture.default"
+									]
+								},
+								"key": "materials",
+								"children": [
+									{
+										"open": [
+											{
+												"*": "Material.default"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"*": "Material.default"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Texture.default"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Texture.default"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

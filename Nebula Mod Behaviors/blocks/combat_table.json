@@ -1,0 +1,27 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ballistic:combat_table",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:flammable": {
+				"burn_odds": 0.3,
+				"flame_odds": 0.3
+			},
+			"minecraft:explosion_resistance": 0.8,
+			"minecraft:crafting_table": {
+				"grid_size": 3,
+				"crafting_tags": [
+					"combat_table"
+				],
+				"custom_description": "Combat Table"
+			},
+			"minecraft:map_color": "#AD0808"
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,261 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod/recipes/wither_skeleton_skull.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "698c920f_b0ea_42c1_b13e_94638655aab3",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ballistic:wither_skeleton_skull"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"BBB",
+							"BCB",
+							"BBB"
+						],
+						"key": {
+							"B": {
+								"item": "ballistic:wither_bone"
+							},
+							"C": {
+								"item": "ballistic:celestial_dust"
+							}
+						},
+						"result": [
+							{
+								"item": "minecraft:skull",
+								"data": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:wither_skeleton_skull"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"BBB",
+								"BCB",
+								"BBB"
+							],
+							"key": {
+								"B": {
+									"item": "ballistic:wither_bone"
+								},
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:skull",
+									"data": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:wither_skeleton_skull"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:wither_skeleton_skull"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"BBB",
+								"BCB",
+								"BBB"
+							],
+							"key": {
+								"B": {
+									"item": "ballistic:wither_bone"
+								},
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:skull",
+									"data": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:wither_skeleton_skull"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"BBB",
+								"BCB",
+								"BBB"
+							],
+							"key": {
+								"B": {
+									"item": "ballistic:wither_bone"
+								},
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:skull",
+									"data": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"BBB",
+							"BCB",
+							"BBB"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:wither_skeleton_skull"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"BBB",
+								"BCB",
+								"BBB"
+							],
+							"key": {
+								"B": {
+									"item": "ballistic:wither_bone"
+								},
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:skull",
+									"data": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"B": {
+										"item": "ballistic:wither_bone"
+									},
+									"C": {
+										"item": "ballistic:celestial_dust"
+									}
+								},
+								"key": "B",
+								"is_minified": true,
+								"children": {
+									"item": "ballistic:wither_bone"
+								}
+							},
+							{
+								"open": {
+									"B": {
+										"item": "ballistic:wither_bone"
+									},
+									"C": {
+										"item": "ballistic:celestial_dust"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "ballistic:celestial_dust"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:wither_skeleton_skull"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"BBB",
+								"BCB",
+								"BBB"
+							],
+							"key": {
+								"B": {
+									"item": "ballistic:wither_bone"
+								},
+								"C": {
+									"item": "ballistic:celestial_dust"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:skull",
+									"data": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "minecraft:skull",
+										"data": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:skull",
+									"data": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

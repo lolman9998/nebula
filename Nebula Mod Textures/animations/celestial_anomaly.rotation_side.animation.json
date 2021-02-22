@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.celestial_anomaly.rotate_side": {
+			"loop": true,
+			"animation_length": 0.52,
+			"bones": {
+				"rotate2": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.52": [
+							360,
+							0,
+							0
+						]
+					}
+				}
+			},
+			"override_previous_animation": false
+		}
+	}
+}

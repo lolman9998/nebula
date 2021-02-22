@@ -1,0 +1,604 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\items\\celestial_boots.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "c671e606_33a6_4dd2_9c2b_bc497bf0e128",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ballistic:celestial_boots",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:enchantable": {
+								"value": 25,
+								"slot": "armor_feet"
+							},
+							"minecraft:durability": {
+								"max_damage": 500,
+								"damage_chance": {
+									"min": 60,
+									"max": 100
+								}
+							},
+							"minecraft:mining_speed": 8,
+							"minecraft:damage": 3,
+							"minecraft:armor": {
+								"protection": 3
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.feet"
+							},
+							"minecraft:knockback_resistance": {
+								"protection": 1
+							},
+							"minecraft:icon": {
+								"texture": "celestial_boots"
+							},
+							"minecraft:display_name": {
+								"value": "Celestial Boots"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.boots"
+							},
+							"minecraft:render_offsets": "boots",
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"ballistic:celestial_dust"
+										],
+										"repair_amount": 200
+									}
+								]
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ballistic:celestial_boots",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:enchantable": {
+								"value": 25,
+								"slot": "armor_feet"
+							},
+							"minecraft:durability": {
+								"max_damage": 500,
+								"damage_chance": {
+									"min": 60,
+									"max": 100
+								}
+							},
+							"minecraft:mining_speed": 8,
+							"minecraft:damage": 3,
+							"minecraft:armor": {
+								"protection": 3
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.feet"
+							},
+							"minecraft:knockback_resistance": {
+								"protection": 1
+							},
+							"minecraft:icon": {
+								"texture": "celestial_boots"
+							},
+							"minecraft:display_name": {
+								"value": "Celestial Boots"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.boots"
+							},
+							"minecraft:render_offsets": "boots",
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"ballistic:celestial_dust"
+										],
+										"repair_amount": 200
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_boots",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:enchantable": {
+									"value": 25,
+									"slot": "armor_feet"
+								},
+								"minecraft:durability": {
+									"max_damage": 500,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								},
+								"minecraft:mining_speed": 8,
+								"minecraft:damage": 3,
+								"minecraft:armor": {
+									"protection": 3
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.feet"
+								},
+								"minecraft:knockback_resistance": {
+									"protection": 1
+								},
+								"minecraft:icon": {
+									"texture": "celestial_boots"
+								},
+								"minecraft:display_name": {
+									"value": "Celestial Boots"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.boots"
+								},
+								"minecraft:render_offsets": "boots",
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"ballistic:celestial_dust"
+											],
+											"repair_amount": 200
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:celestial_boots",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:celestial_boots",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:enchantable": {
+									"value": 25,
+									"slot": "armor_feet"
+								},
+								"minecraft:durability": {
+									"max_damage": 500,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								},
+								"minecraft:mining_speed": 8,
+								"minecraft:damage": 3,
+								"minecraft:armor": {
+									"protection": 3
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.feet"
+								},
+								"minecraft:knockback_resistance": {
+									"protection": 1
+								},
+								"minecraft:icon": {
+									"texture": "celestial_boots"
+								},
+								"minecraft:display_name": {
+									"value": "Celestial Boots"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.boots"
+								},
+								"minecraft:render_offsets": "boots",
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"ballistic:celestial_dust"
+											],
+											"repair_amount": 200
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "armor_feet"
+									},
+									"minecraft:durability": {
+										"max_damage": 500,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 8,
+									"minecraft:damage": 3,
+									"minecraft:armor": {
+										"protection": 3
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.feet"
+									},
+									"minecraft:knockback_resistance": {
+										"protection": 1
+									},
+									"minecraft:icon": {
+										"texture": "celestial_boots"
+									},
+									"minecraft:display_name": {
+										"value": "Celestial Boots"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.boots"
+									},
+									"minecraft:render_offsets": "boots",
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"ballistic:celestial_dust"
+												],
+												"repair_amount": 200
+											}
+										]
+									}
+								},
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 25,
+									"slot": "armor_feet"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "armor_feet"
+									},
+									"minecraft:durability": {
+										"max_damage": 500,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 8,
+									"minecraft:damage": 3,
+									"minecraft:armor": {
+										"protection": 3
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.feet"
+									},
+									"minecraft:knockback_resistance": {
+										"protection": 1
+									},
+									"minecraft:icon": {
+										"texture": "celestial_boots"
+									},
+									"minecraft:display_name": {
+										"value": "Celestial Boots"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.boots"
+									},
+									"minecraft:render_offsets": "boots",
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"ballistic:celestial_dust"
+												],
+												"repair_amount": 200
+											}
+										]
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_damage": 500,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								}
+							},
+							{
+								"data": "8",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"data": "3",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:armor",
+								"is_minified": true,
+								"children": {
+									"protection": 3
+								}
+							},
+							{
+								"key": "minecraft:wearable",
+								"is_minified": true,
+								"children": {
+									"slot": "slot.armor.feet"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "armor_feet"
+									},
+									"minecraft:durability": {
+										"max_damage": 500,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 8,
+									"minecraft:damage": 3,
+									"minecraft:armor": {
+										"protection": 3
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.feet"
+									},
+									"minecraft:knockback_resistance": {
+										"protection": 1
+									},
+									"minecraft:icon": {
+										"texture": "celestial_boots"
+									},
+									"minecraft:display_name": {
+										"value": "Celestial Boots"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.boots"
+									},
+									"minecraft:render_offsets": "boots",
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"ballistic:celestial_dust"
+												],
+												"repair_amount": 200
+											}
+										]
+									}
+								},
+								"key": "minecraft:knockback_resistance",
+								"is_minified": true,
+								"children": {
+									"protection": 1
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "armor_feet"
+									},
+									"minecraft:durability": {
+										"max_damage": 500,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 8,
+									"minecraft:damage": 3,
+									"minecraft:armor": {
+										"protection": 3
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.feet"
+									},
+									"minecraft:knockback_resistance": {
+										"protection": 1
+									},
+									"minecraft:icon": {
+										"texture": "celestial_boots"
+									},
+									"minecraft:display_name": {
+										"value": "Celestial Boots"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.boots"
+									},
+									"minecraft:render_offsets": "boots",
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"ballistic:celestial_dust"
+												],
+												"repair_amount": 200
+											}
+										]
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "celestial_boots"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "armor_feet"
+									},
+									"minecraft:durability": {
+										"max_damage": 500,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 8,
+									"minecraft:damage": 3,
+									"minecraft:armor": {
+										"protection": 3
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.feet"
+									},
+									"minecraft:knockback_resistance": {
+										"protection": 1
+									},
+									"minecraft:icon": {
+										"texture": "celestial_boots"
+									},
+									"minecraft:display_name": {
+										"value": "Celestial Boots"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.boots"
+									},
+									"minecraft:render_offsets": "boots",
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"ballistic:celestial_dust"
+												],
+												"repair_amount": 200
+											}
+										]
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Celestial Boots"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "armor_feet"
+									},
+									"minecraft:durability": {
+										"max_damage": 500,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 8,
+									"minecraft:damage": 3,
+									"minecraft:armor": {
+										"protection": 3
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.feet"
+									},
+									"minecraft:knockback_resistance": {
+										"protection": 1
+									},
+									"minecraft:icon": {
+										"texture": "celestial_boots"
+									},
+									"minecraft:display_name": {
+										"value": "Celestial Boots"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.boots"
+									},
+									"minecraft:render_offsets": "boots",
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"ballistic:celestial_dust"
+												],
+												"repair_amount": 200
+											}
+										]
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.boots"
+								}
+							},
+							{
+								"data": "boots",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"key": "minecraft:repairable",
+								"is_minified": true,
+								"children": {
+									"repair_items": [
+										{
+											"items": [
+												"ballistic:celestial_dust"
+											],
+											"repair_amount": 200
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

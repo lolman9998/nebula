@@ -1,0 +1,36 @@
+//bridge-file-version: #15
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"ballistic:combat_table": {
+		"textures": {
+			"up": "combat_table_top",
+			"side": "combat_table_side",
+			"down": "combat_table_bottom"
+		},
+		"sound": "wood"
+	},
+	"ballistic:lantern_block": {
+		"textures": "lantern_block",
+		"sound": "lantern"
+	},
+	"ballistic:auqa_dungeon_brick": {
+		"textures": "aqua_dungeon_brick",
+		"sound": "nether_brick"
+	},
+	"ballistic:runic_auqa_dungeon_brick": {
+		"textures": "runic_aqua_dungeon_brick",
+		"sound": "nether_brick"
+	},
+	"ballistic:transformation_table": {
+		"textures": {
+			"up": "transformation_table_top",
+			"side": "transformation_table_side",
+			"down": "transformation_table_bottom"
+		},
+		"sound": "netherrack"
+	}
+}

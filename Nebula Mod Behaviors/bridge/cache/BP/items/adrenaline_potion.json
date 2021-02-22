@@ -1,0 +1,717 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\items\\adrenaline_potion.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "848a7c12_9443_4dba_a538_2d12ce1073ff",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ballistic:adrenaline_potion",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:food": {
+								"nutrition": 0,
+								"on_consume": {
+									"event": "consume",
+									"target": "self"
+								},
+								"can_always_eat": true
+							},
+							"minecraft:icon": {
+								"texture": "adrenaline_potion"
+							},
+							"minecraft:display_name": {
+								"value": "Adrenaline Potion"
+							},
+							"minecraft:foil": true
+						},
+						"events": {
+							"consume": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "nausea",
+											"target": "holder",
+											"duration": 60,
+											"amplifier": 0
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "strength",
+											"target": "holder",
+											"duration": 60,
+											"amplifier": 9
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "poison",
+											"target": "holder",
+											"duration": 60,
+											"amplifier": 0
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ballistic:adrenaline_potion",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:food": {
+								"nutrition": 0,
+								"on_consume": {
+									"event": "consume",
+									"target": "self"
+								},
+								"can_always_eat": true
+							},
+							"minecraft:icon": {
+								"texture": "adrenaline_potion"
+							},
+							"minecraft:display_name": {
+								"value": "Adrenaline Potion"
+							},
+							"minecraft:foil": true
+						},
+						"events": {
+							"consume": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "nausea",
+											"target": "holder",
+											"duration": 60,
+											"amplifier": 0
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "strength",
+											"target": "holder",
+											"duration": 60,
+											"amplifier": 9
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "poison",
+											"target": "holder",
+											"duration": 60,
+											"amplifier": 0
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:adrenaline_potion",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"on_consume": {
+										"event": "consume",
+										"target": "self"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:icon": {
+									"texture": "adrenaline_potion"
+								},
+								"minecraft:display_name": {
+									"value": "Adrenaline Potion"
+								},
+								"minecraft:foil": true
+							},
+							"events": {
+								"consume": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "nausea",
+												"target": "holder",
+												"duration": 60,
+												"amplifier": 0
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 60,
+												"amplifier": 9
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "poison",
+												"target": "holder",
+												"duration": 60,
+												"amplifier": 0
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:adrenaline_potion",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:adrenaline_potion",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"on_consume": {
+										"event": "consume",
+										"target": "self"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:icon": {
+									"texture": "adrenaline_potion"
+								},
+								"minecraft:display_name": {
+									"value": "Adrenaline Potion"
+								},
+								"minecraft:foil": true
+							},
+							"events": {
+								"consume": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "nausea",
+												"target": "holder",
+												"duration": 60,
+												"amplifier": 0
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 60,
+												"amplifier": 9
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "poison",
+												"target": "holder",
+												"duration": 60,
+												"amplifier": 0
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:food": {
+										"nutrition": 0,
+										"on_consume": {
+											"event": "consume",
+											"target": "self"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:icon": {
+										"texture": "adrenaline_potion"
+									},
+									"minecraft:display_name": {
+										"value": "Adrenaline Potion"
+									},
+									"minecraft:foil": true
+								},
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:food": {
+										"nutrition": 0,
+										"on_consume": {
+											"event": "consume",
+											"target": "self"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:icon": {
+										"texture": "adrenaline_potion"
+									},
+									"minecraft:display_name": {
+										"value": "Adrenaline Potion"
+									},
+									"minecraft:foil": true
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "equipment"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:food": {
+										"nutrition": 0,
+										"on_consume": {
+											"event": "consume",
+											"target": "self"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:icon": {
+										"texture": "adrenaline_potion"
+									},
+									"minecraft:display_name": {
+										"value": "Adrenaline Potion"
+									},
+									"minecraft:foil": true
+								},
+								"key": "minecraft:food",
+								"children": [
+									{
+										"open": {
+											"nutrition": 0,
+											"on_consume": {
+												"event": "consume",
+												"target": "self"
+											},
+											"can_always_eat": true
+										},
+										"data": "0",
+										"key": "nutrition"
+									},
+									{
+										"open": {
+											"nutrition": 0,
+											"on_consume": {
+												"event": "consume",
+												"target": "self"
+											},
+											"can_always_eat": true
+										},
+										"key": "on_consume",
+										"is_minified": true,
+										"children": {
+											"event": "consume",
+											"target": "self"
+										}
+									},
+									{
+										"data": "true",
+										"key": "can_always_eat"
+									}
+								]
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "adrenaline_potion"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:food": {
+										"nutrition": 0,
+										"on_consume": {
+											"event": "consume",
+											"target": "self"
+										},
+										"can_always_eat": true
+									},
+									"minecraft:icon": {
+										"texture": "adrenaline_potion"
+									},
+									"minecraft:display_name": {
+										"value": "Adrenaline Potion"
+									},
+									"minecraft:foil": true
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Adrenaline Potion"
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:foil"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:adrenaline_potion",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"on_consume": {
+										"event": "consume",
+										"target": "self"
+									},
+									"can_always_eat": true
+								},
+								"minecraft:icon": {
+									"texture": "adrenaline_potion"
+								},
+								"minecraft:display_name": {
+									"value": "Adrenaline Potion"
+								},
+								"minecraft:foil": true
+							},
+							"events": {
+								"consume": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "nausea",
+												"target": "holder",
+												"duration": 60,
+												"amplifier": 0
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 60,
+												"amplifier": 9
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "poison",
+												"target": "holder",
+												"duration": 60,
+												"amplifier": 0
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"consume": {
+										"sequence": [
+											{
+												"add_mob_effect": {
+													"effect": "nausea",
+													"target": "holder",
+													"duration": 60,
+													"amplifier": 0
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "strength",
+													"target": "holder",
+													"duration": 60,
+													"amplifier": 9
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "poison",
+													"target": "holder",
+													"duration": 60,
+													"amplifier": 0
+												}
+											}
+										]
+									}
+								},
+								"key": "consume",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"add_mob_effect": {
+														"effect": "nausea",
+														"target": "holder",
+														"duration": 60,
+														"amplifier": 0
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "strength",
+														"target": "holder",
+														"duration": 60,
+														"amplifier": 9
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "poison",
+														"target": "holder",
+														"duration": 60,
+														"amplifier": 0
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "nausea",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 0
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 9
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "poison",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 0
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "nausea",
+																"target": "holder",
+																"duration": 60,
+																"amplifier": 0
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "nausea",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 0
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "nausea",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 0
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 9
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "poison",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 0
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "strength",
+																"target": "holder",
+																"duration": 60,
+																"amplifier": 9
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 9
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "nausea",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 0
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 9
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "poison",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 0
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "poison",
+																"target": "holder",
+																"duration": 60,
+																"amplifier": 0
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "poison",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 0
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

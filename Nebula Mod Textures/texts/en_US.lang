@@ -1,0 +1,11 @@
+##bridge-file-version: #16
+pack.name=Nebula Mod Textures
+pack.description=Sprites and model assets.
+tile.ballistic:combat_table.name=Combat Table
+tile.ballistic:frosted_ore.name=Frosted Ore
+tile.ballistic:frosted_block.name=Frosted Block
+entity.ballistic:celestial_anomaly.name=Celestial Anomaly
+item.spawn_egg.entity.ballistic:celestial_anomaly.name=Spawn Celestial Anomaly
+tile.ballistic:auqa_dungeon_brick.name=Auqa Dungeon Brick
+tile.ballistic:runic_auqa_dungeon_brick.name=Runic Auqa Dungeon Brick
+tile.ballistic:transformation_table.name=Transformation Table

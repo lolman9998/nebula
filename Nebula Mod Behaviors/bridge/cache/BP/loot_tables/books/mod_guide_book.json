@@ -1,0 +1,241 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\loot_tables\\books\\mod_guide_book.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "414cfe85_0ea0_4129_8902_8ede4a227c91",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "minecraft:written_book",
+									"functions": [
+										{
+											"function": "set_book_contents",
+											"author": "Steve",
+											"title": "Nebula Mod Guide",
+											"pages": [
+												"This book contains mod instructions for crafting and for strategies.",
+												"Section 1: Crafting\\n <><><><><><><>\\n Combat Table\\n ##\\n $$\\n $$\\n Key\\n #=Gold Ingot\\n $=Planks\\n This crafting table is used to create boss summons."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "minecraft:written_book",
+										"functions": [
+											{
+												"function": "set_book_contents",
+												"author": "Steve",
+												"title": "Nebula Mod Guide",
+												"pages": [
+													"This book contains mod instructions for crafting and for strategies.",
+													"Section 1: Crafting\\n <><><><><><><>\\n Combat Table\\n ##\\n $$\\n $$\\n Key\\n #=Gold Ingot\\n $=Planks\\n This crafting table is used to create boss summons."
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "minecraft:written_book",
+											"functions": [
+												{
+													"function": "set_book_contents",
+													"author": "Steve",
+													"title": "Nebula Mod Guide",
+													"pages": [
+														"This book contains mod instructions for crafting and for strategies.",
+														"Section 1: Crafting\\n <><><><><><><>\\n Combat Table\\n ##\\n $$\\n $$\\n Key\\n #=Gold Ingot\\n $=Planks\\n This crafting table is used to create boss summons."
+													]
+												}
+											]
+										}
+									]
+								},
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "minecraft:written_book",
+											"functions": [
+												{
+													"function": "set_book_contents",
+													"author": "Steve",
+													"title": "Nebula Mod Guide",
+													"pages": [
+														"This book contains mod instructions for crafting and for strategies.",
+														"Section 1: Crafting\\n <><><><><><><>\\n Combat Table\\n ##\\n $$\\n $$\\n Key\\n #=Gold Ingot\\n $=Planks\\n This crafting table is used to create boss summons."
+													]
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:written_book",
+												"functions": [
+													{
+														"function": "set_book_contents",
+														"author": "Steve",
+														"title": "Nebula Mod Guide",
+														"pages": [
+															"This book contains mod instructions for crafting and for strategies.",
+															"Section 1: Crafting\\n <><><><><><><>\\n Combat Table\\n ##\\n $$\\n $$\\n Key\\n #=Gold Ingot\\n $=Planks\\n This crafting table is used to create boss summons."
+														]
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "minecraft:written_book",
+													"functions": [
+														{
+															"function": "set_book_contents",
+															"author": "Steve",
+															"title": "Nebula Mod Guide",
+															"pages": [
+																"This book contains mod instructions for crafting and for strategies.",
+																"Section 1: Crafting\\n <><><><><><><>\\n Combat Table\\n ##\\n $$\\n $$\\n Key\\n #=Gold Ingot\\n $=Planks\\n This crafting table is used to create boss summons."
+															]
+														}
+													]
+												},
+												"data": "minecraft:written_book",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "minecraft:written_book",
+													"functions": [
+														{
+															"function": "set_book_contents",
+															"author": "Steve",
+															"title": "Nebula Mod Guide",
+															"pages": [
+																"This book contains mod instructions for crafting and for strategies.",
+																"Section 1: Crafting\\n <><><><><><><>\\n Combat Table\\n ##\\n $$\\n $$\\n Key\\n #=Gold Ingot\\n $=Planks\\n This crafting table is used to create boss summons."
+															]
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_book_contents",
+																"author": "Steve",
+																"title": "Nebula Mod Guide",
+																"pages": [
+																	"This book contains mod instructions for crafting and for strategies.",
+																	"Section 1: Crafting\\n <><><><><><><>\\n Combat Table\\n ##\\n $$\\n $$\\n Key\\n #=Gold Ingot\\n $=Planks\\n This crafting table is used to create boss summons."
+																]
+															}
+														],
+														"children": [
+															{
+																"data": "set_book_contents",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_book_contents",
+																	"author": "Steve",
+																	"title": "Nebula Mod Guide",
+																	"pages": [
+																		"This book contains mod instructions for crafting and for strategies.",
+																		"Section 1: Crafting\\n <><><><><><><>\\n Combat Table\\n ##\\n $$\\n $$\\n Key\\n #=Gold Ingot\\n $=Planks\\n This crafting table is used to create boss summons."
+																	]
+																},
+																"data": "Steve",
+																"key": "author"
+															},
+															{
+																"open": {
+																	"function": "set_book_contents",
+																	"author": "Steve",
+																	"title": "Nebula Mod Guide",
+																	"pages": [
+																		"This book contains mod instructions for crafting and for strategies.",
+																		"Section 1: Crafting\\n <><><><><><><>\\n Combat Table\\n ##\\n $$\\n $$\\n Key\\n #=Gold Ingot\\n $=Planks\\n This crafting table is used to create boss summons."
+																	]
+																},
+																"data": "Nebula Mod Guide",
+																"key": "title"
+															},
+															{
+																"open": {
+																	"function": "set_book_contents",
+																	"author": "Steve",
+																	"title": "Nebula Mod Guide",
+																	"pages": [
+																		"This book contains mod instructions for crafting and for strategies.",
+																		"Section 1: Crafting\\n <><><><><><><>\\n Combat Table\\n ##\\n $$\\n $$\\n Key\\n #=Gold Ingot\\n $=Planks\\n This crafting table is used to create boss summons."
+																	]
+																},
+																"key": "pages",
+																"is_minified": true,
+																"children": [
+																	"This book contains mod instructions for crafting and for strategies.",
+																	"Section 1: Crafting\\n <><><><><><><>\\n Combat Table\\n ##\\n $$\\n $$\\n Key\\n #=Gold Ingot\\n $=Planks\\n This crafting table is used to create boss summons."
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

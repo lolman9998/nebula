@@ -1,0 +1,1067 @@
+{
+	"file_path": "C:\\Users\\Isaia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Nebula Mod\\items\\thermal_sword.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "884f16f5_25e8_476f_8cfe_1d6b9a94ed68",
+	"file_version": 12,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ballistic:thermal_sword",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 3600,
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_damage": 4000
+							},
+							"minecraft:mining_speed": 1.5,
+							"minecraft:damage": 10,
+							"minecraft:enchantable": {
+								"value": 25,
+								"slot": "sword"
+							},
+							"minecraft:can_destroy_in_creative": false,
+							"minecraft:digger": {
+								"use_efficiency": false,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:web",
+										"speed": 15
+									},
+									{
+										"block": "minecraft:bamboo",
+										"speed": 10
+									}
+								]
+							},
+							"minecraft:icon": {
+								"texture": "thermal_sword"
+							},
+							"minecraft:render_offsets": "tools",
+							"minecraft:display_name": {
+								"value": "Eruption"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "ballistic:thermal_sword_projectile",
+									"target": "self"
+								}
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"minecraft:crying_obsidian"
+										],
+										"repair_amount": 2000
+									}
+								]
+							},
+							"minecraft:use_animation": "bow",
+							"minecraft:weapon": {}
+						},
+						"events": {
+							"ballistic:thermal_sword_projectile": {
+								"shoot": {
+									"projectile": "minecraft:small_fireball",
+									"launch_power": 1
+								},
+								"add_mob_effect": {
+									"effect": "fire_resistance",
+									"target": "holder",
+									"duration": 5,
+									"amplifier": 0
+								},
+								"run_command": {
+									"command": [
+										"particle minecraft:basic_flame_particle ~ ~ ~"
+									]
+								}
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ballistic:thermal_sword",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 3600,
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_damage": 4000
+							},
+							"minecraft:mining_speed": 1.5,
+							"minecraft:damage": 10,
+							"minecraft:enchantable": {
+								"value": 25,
+								"slot": "sword"
+							},
+							"minecraft:can_destroy_in_creative": false,
+							"minecraft:digger": {
+								"use_efficiency": false,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:web",
+										"speed": 15
+									},
+									{
+										"block": "minecraft:bamboo",
+										"speed": 10
+									}
+								]
+							},
+							"minecraft:icon": {
+								"texture": "thermal_sword"
+							},
+							"minecraft:render_offsets": "tools",
+							"minecraft:display_name": {
+								"value": "Eruption"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "ballistic:thermal_sword_projectile",
+									"target": "self"
+								}
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"minecraft:crying_obsidian"
+										],
+										"repair_amount": 2000
+									}
+								]
+							},
+							"minecraft:use_animation": "bow",
+							"minecraft:weapon": {}
+						},
+						"events": {
+							"ballistic:thermal_sword_projectile": {
+								"shoot": {
+									"projectile": "minecraft:small_fireball",
+									"launch_power": 1
+								},
+								"add_mob_effect": {
+									"effect": "fire_resistance",
+									"target": "holder",
+									"duration": 5,
+									"amplifier": 0
+								},
+								"run_command": {
+									"command": [
+										"particle minecraft:basic_flame_particle ~ ~ ~"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ballistic:thermal_sword",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:thermal_sword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_damage": 4000
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:damage": 10,
+								"minecraft:enchantable": {
+									"value": 25,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": false,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								},
+								"minecraft:icon": {
+									"texture": "thermal_sword"
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:display_name": {
+									"value": "Eruption"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "ballistic:thermal_sword_projectile",
+										"target": "self"
+									}
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"minecraft:crying_obsidian"
+											],
+											"repair_amount": 2000
+										}
+									]
+								},
+								"minecraft:use_animation": "bow",
+								"minecraft:weapon": {}
+							},
+							"events": {
+								"ballistic:thermal_sword_projectile": {
+									"shoot": {
+										"projectile": "minecraft:small_fireball",
+										"launch_power": 1
+									},
+									"add_mob_effect": {
+										"effect": "fire_resistance",
+										"target": "holder",
+										"duration": 5,
+										"amplifier": 0
+									},
+									"run_command": {
+										"command": [
+											"particle minecraft:basic_flame_particle ~ ~ ~"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "3600",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 4000
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 10,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:icon": {
+										"texture": "thermal_sword"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Eruption"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "ballistic:thermal_sword_projectile",
+											"target": "self"
+										}
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:crying_obsidian"
+												],
+												"repair_amount": 2000
+											}
+										]
+									},
+									"minecraft:use_animation": "bow",
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_damage": 4000
+								}
+							},
+							{
+								"data": "1.5",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 4000
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 10,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:icon": {
+										"texture": "thermal_sword"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Eruption"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "ballistic:thermal_sword_projectile",
+											"target": "self"
+										}
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:crying_obsidian"
+												],
+												"repair_amount": 2000
+											}
+										]
+									},
+									"minecraft:use_animation": "bow",
+									"minecraft:weapon": {}
+								},
+								"data": "10",
+								"key": "minecraft:damage"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 4000
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 10,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:icon": {
+										"texture": "thermal_sword"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Eruption"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "ballistic:thermal_sword_projectile",
+											"target": "self"
+										}
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:crying_obsidian"
+												],
+												"repair_amount": 2000
+											}
+										]
+									},
+									"minecraft:use_animation": "bow",
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 25,
+									"slot": "sword"
+								}
+							},
+							{
+								"data": "false",
+								"key": "minecraft:can_destroy_in_creative"
+							},
+							{
+								"key": "minecraft:digger",
+								"is_minified": true,
+								"children": {
+									"use_efficiency": false,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 4000
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 10,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:icon": {
+										"texture": "thermal_sword"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Eruption"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "ballistic:thermal_sword_projectile",
+											"target": "self"
+										}
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:crying_obsidian"
+												],
+												"repair_amount": 2000
+											}
+										]
+									},
+									"minecraft:use_animation": "bow",
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "thermal_sword"
+								}
+							},
+							{
+								"data": "tools",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 4000
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 10,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:icon": {
+										"texture": "thermal_sword"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Eruption"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "ballistic:thermal_sword_projectile",
+											"target": "self"
+										}
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:crying_obsidian"
+												],
+												"repair_amount": 2000
+											}
+										]
+									},
+									"minecraft:use_animation": "bow",
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Eruption"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 4000
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 10,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:icon": {
+										"texture": "thermal_sword"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Eruption"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "ballistic:thermal_sword_projectile",
+											"target": "self"
+										}
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:crying_obsidian"
+												],
+												"repair_amount": 2000
+											}
+										]
+									},
+									"minecraft:use_animation": "bow",
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 4000
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 10,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:icon": {
+										"texture": "thermal_sword"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Eruption"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "ballistic:thermal_sword_projectile",
+											"target": "self"
+										}
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:crying_obsidian"
+												],
+												"repair_amount": 2000
+											}
+										]
+									},
+									"minecraft:use_animation": "bow",
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:on_use",
+								"children": [
+									{
+										"open": {
+											"on_use": {
+												"event": "ballistic:thermal_sword_projectile",
+												"target": "self"
+											}
+										},
+										"key": "on_use",
+										"is_minified": true,
+										"children": {
+											"event": "ballistic:thermal_sword_projectile",
+											"target": "self"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 4000
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 10,
+									"minecraft:enchantable": {
+										"value": 25,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:icon": {
+										"texture": "thermal_sword"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Eruption"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "ballistic:thermal_sword_projectile",
+											"target": "self"
+										}
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"minecraft:crying_obsidian"
+												],
+												"repair_amount": 2000
+											}
+										]
+									},
+									"minecraft:use_animation": "bow",
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:repairable",
+								"children": [
+									{
+										"open": {
+											"repair_items": [
+												{
+													"items": [
+														"minecraft:crying_obsidian"
+													],
+													"repair_amount": 2000
+												}
+											]
+										},
+										"key": "repair_items",
+										"children": [
+											{
+												"open": [
+													{
+														"items": [
+															"minecraft:crying_obsidian"
+														],
+														"repair_amount": 2000
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"items": [
+																"minecraft:crying_obsidian"
+															],
+															"repair_amount": 2000
+														},
+														"key": "items",
+														"is_minified": true,
+														"children": [
+															"minecraft:crying_obsidian"
+														]
+													},
+													{
+														"data": "2000",
+														"key": "repair_amount"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"data": "bow",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ballistic:thermal_sword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_damage": 4000
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:damage": 10,
+								"minecraft:enchantable": {
+									"value": 25,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": false,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								},
+								"minecraft:icon": {
+									"texture": "thermal_sword"
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:display_name": {
+									"value": "Eruption"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "ballistic:thermal_sword_projectile",
+										"target": "self"
+									}
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"minecraft:crying_obsidian"
+											],
+											"repair_amount": 2000
+										}
+									]
+								},
+								"minecraft:use_animation": "bow",
+								"minecraft:weapon": {}
+							},
+							"events": {
+								"ballistic:thermal_sword_projectile": {
+									"shoot": {
+										"projectile": "minecraft:small_fireball",
+										"launch_power": 1
+									},
+									"add_mob_effect": {
+										"effect": "fire_resistance",
+										"target": "holder",
+										"duration": 5,
+										"amplifier": 0
+									},
+									"run_command": {
+										"command": [
+											"particle minecraft:basic_flame_particle ~ ~ ~"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"ballistic:thermal_sword_projectile": {
+										"shoot": {
+											"projectile": "minecraft:small_fireball",
+											"launch_power": 1
+										},
+										"add_mob_effect": {
+											"effect": "fire_resistance",
+											"target": "holder",
+											"duration": 5,
+											"amplifier": 0
+										},
+										"run_command": {
+											"command": [
+												"particle minecraft:basic_flame_particle ~ ~ ~"
+											]
+										}
+									}
+								},
+								"key": "ballistic:thermal_sword_projectile",
+								"children": [
+									{
+										"open": {
+											"shoot": {
+												"projectile": "minecraft:small_fireball",
+												"launch_power": 1
+											},
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"target": "holder",
+												"duration": 5,
+												"amplifier": 0
+											},
+											"run_command": {
+												"command": [
+													"particle minecraft:basic_flame_particle ~ ~ ~"
+												]
+											}
+										},
+										"key": "shoot",
+										"is_minified": true,
+										"children": {
+											"projectile": "minecraft:small_fireball",
+											"launch_power": 1
+										}
+									},
+									{
+										"key": "add_mob_effect",
+										"is_minified": true,
+										"children": {
+											"effect": "fire_resistance",
+											"target": "holder",
+											"duration": 5,
+											"amplifier": 0
+										}
+									},
+									{
+										"open": {
+											"shoot": {
+												"projectile": "minecraft:small_fireball",
+												"launch_power": 1
+											},
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"target": "holder",
+												"duration": 5,
+												"amplifier": 0
+											},
+											"run_command": {
+												"command": [
+													"particle minecraft:basic_flame_particle ~ ~ ~"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"particle minecraft:basic_flame_particle ~ ~ ~"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"particle minecraft:basic_flame_particle ~ ~ ~"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
