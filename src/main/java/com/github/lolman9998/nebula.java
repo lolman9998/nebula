@@ -23,4 +23,9 @@ import java.util.stream.Collectors;
 @Mod("nebula")
 public class Nebula {
 	public static final String MODID = "nebula";
-	
+	private static final Logger LOGGER = LogManager.getLogger();
+
+	public Nebula() {
+		LOGGER.debug("The void beckons...");
+	}
+}
